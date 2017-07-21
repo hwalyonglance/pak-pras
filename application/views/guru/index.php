@@ -50,7 +50,7 @@
 	</div>
 </div>
 <!-- FORM DELETE -->
-<?=form_open('guru/delete',[],['guru_delete_id'=>'0'])?>
+<?=form_open('guru/delete',[],['guru_id'=>'0'])?>
 	<div id="guru_delete" class="modal gdmw">
 		<div class="modal-content">
 			<h4 class="center">Hapus Guru ini?</h4>

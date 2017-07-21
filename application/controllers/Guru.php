@@ -38,7 +38,7 @@ class Guru extends CI_Controller {
 		$this->M_Guru->update($data);
 	}
 	function delete(){
-		$this->M_Guru->delete($_POST['delete_id']);
+		$this->M_Guru->delete($_POST['guru_id']);
 	}
 }
 

@@ -44,16 +44,16 @@
 </form>
 <script>
 	function loadImageFileAsUrl($this) {
-		let fileSelected = $this.files;
+		let fileSelected = $this.files
 		if (fileSelected.length > 0) {
 			let fileToLoad = fileSelected[0]
-			let fileReader = new FileReader();
+			let fileReader = new FileReader()
 			fileReader.onload = function(fileLoadedEvent){
-				document.getElementById('preview').src = fileLoadedEvent.target.result;
+				document.getElementById('preview').src = fileLoadedEvent.target.result
 			}
-			fileReader.readAsDataURL(fileToLoad);
+			fileReader.readAsDataURL(fileToLoad)
 		}
-		$('#submit').attr('disabled',null);
+		$('#submit').attr('disabled',null)
 		$('#foto-err').hide()
 	}
 	function add(){
@@ -79,9 +79,9 @@
 		$('#foto-err').hide()
 		$('#submit').attr('disabled',null)
 	}
-	function delete(guru){
-		$('#delete').modal('open');
-		$('[name="delete_id"]').val(guru.id);
+	function remove(guru){
+		$('#remove').modal('open')
+		$('[name="guru_id"]').val(guru.id)
 		$('span.nama').text(guru.nama)
 	}
 </script>
