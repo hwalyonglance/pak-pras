@@ -1,6 +1,6 @@
 <?php
 	$this->load->view('_atas');
-	$this->load->view('su/_nav');
+	$this->load->view('_nav');
 	$this->load->view('form/guru/index');
 ?>
 <style>
