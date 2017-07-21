@@ -7,7 +7,7 @@ class Guru extends CI_Controller {
 	function index(){
 		$this->load->view('guru/index', [
 			'data' => [
-				'teachers' => $this->M_Su->gets()
+				'teachers' => $this->M_Guru->gets()
 			]
 		]);
 	}
@@ -38,7 +38,7 @@ class Guru extends CI_Controller {
 		$this->M_Guru->update($data);
 	}
 	function delete(){
-		$this->M_Guru->delete($_POST['id']);
+		$this->M_Guru->delete($_POST['delete_id']);
 	}
 }
 
