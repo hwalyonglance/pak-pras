@@ -2,11 +2,12 @@
 class Guru extends CI_Controller {
 	function __construct(){
 		parent::__construct();
+		$this->load->model('M_Guru');
 	}
 	function index(){
 		$this->load->view('guru/index', [
 			'data' => [
-				'teachers' => $this->M_Su->guru_gets()
+				'teachers' => $this->M_Su->gets()
 			]
 		]);
 	}
@@ -18,7 +19,7 @@ class Guru extends CI_Controller {
 			echo "</pre>";
 		}else{
 			$_POST['foto'] = $this->upload->data()['file_name'];
-			$this->M_Su->guru_add($_POST);
+			$this->M_Guru->add($_POST);
 		}
 	}
 	function update(){
@@ -34,10 +35,10 @@ class Guru extends CI_Controller {
 				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$data['id'])->get('guru')->result_array()[0]['foto']);
 			}
 		}
-		$this->M_Su->guru_update($data);
+		$this->M_Guru->update($data);
 	}
 	function delete(){
-		$this->M_Su->guru_delete($_POST['id']);
+		$this->M_Guru->delete($_POST['id']);
 	}
 }
 

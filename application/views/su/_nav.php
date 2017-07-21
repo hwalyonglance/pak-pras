@@ -6,7 +6,7 @@
 			<li><a href="<?=base_url()?>">Home</a></li>
 			<li><a href="<?=base_url()?>su/">Dashboard</a></li>
 			<li><a href="<?=base_url()?>su/posts">Posts</a></li>
-			<li><a href="<?=base_url()?>su/guru">Guru</a></li>
+			<li><a href="<?=base_url()?>guru/">Guru</a></li>
 			<li><a href="<?=base_url()?>su/murid">Murid</a></li>
 			<li><a href="<?=base_url()?>su/about">About</a></li>
 			<li><a href="<?=base_url()?>su/logout">Logout</a></li>
