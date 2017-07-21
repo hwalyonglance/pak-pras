@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<script src='../jquery/dist/jquery.min.js'></script>
+	<script src="js/materialize.min.js"></script>
+	<style>
+		.fxContainer{
+			display: flex;
+		}
+		button{
+			flex: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="fxContainer">
+		<button id="btn-play">Play</button>
+		<button id="btn-pause">Pause</button>
+		<button id="btn-next">Next</button>
+		<button id="btn-prev">Previous</button>
+	</div>
+	<div class="fxContainer">
+		<div class="carousel contoh1" data-indicators="true">
+			<a class="carousel-item" href="#"><img src="rgby.png"></a>
+			<a class="carousel-item" href="#"><img src="rgby.png"></a>
+			<a class="carousel-item" href="#"><img src="rgby.png"></a>
+			<a class="carousel-item" href="#"><img src="rgby.png"></a>
+			<a class="carousel-item" href="#"><img src="rgby.png"></a>
+		</div>
+		<!-- -------------------------------------------------------------------------------- -->
+		<div class="carousel carousel-slider center" data-indicators="true">
+			<div class="carousel-fixed-item center">
+				<a class="btn waves-effect white grey-text darken-text-2">button</a>
+			</div>
+			<div class="carousel-item red white-text" href="#">
+				<h2>First Panel</h2>
+				<p class="white-text">This is your first panel</p>
+			</div>
+			<div class="carousel-item amber white-text" href="#">
+				<h2>Second Panel</h2>
+				<p class="white-text">This is your second panel</p>
+			</div>
+			<div class="carousel-item green white-text" href="#">
+				<h2>Third Panel</h2>
+				<p class="white-text">This is your third panel</p>
+			</div>
+			<div class="carousel-item blue white-text" href="#">
+				<h2>Fourth Panel</h2>
+				<p class="white-text">This is your fourth panel</p>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.carousel.contoh1').carousel();
+			$('.carousel.carousel-slider').carousel({
+				fullWidth: true
+			});
+			let interval = setInterval(function(){
+				$('.carousel').carousel('next');
+			}, 1000)
+			$('#btn-play').click(function(event) {
+				interval = setInterval(function(){
+					$('.carousel').carousel('next');
+				}, 1000)				
+			});
+			$('#btn-pause').click(function(event) {
+				clearInterval(interval);
+			});
+			$('#btn-next').click(function(event) {
+				$('.carousel').carousel('next');
+			});
+			$('#btn-prev').click(function(event) {
+				$('.carousel').carousel('prev');
+			});
+		});
+	</script>
+</body>
+</html>
