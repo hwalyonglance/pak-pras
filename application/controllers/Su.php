@@ -44,43 +44,6 @@ class Su extends CI_Controller {
 			$this->load->view('table/murid/index', ['data'=>$data]);
 		}
 	}
-	function guru(){
-		$this->load->view('su/guru', [
-			'data' => [
-				'teachers' => $this->M_Su->guru_gets()
-			]
-		]);
-	}
-	function guru_add(){
-		if ( ! $this->upload->do_upload('foto')){
-			$error = array('error' => $this->upload->display_errors());
-			echo "<pre>";
-			print_r ($error);
-			echo "</pre>";
-		}else{
-			$_POST['foto'] = $this->upload->data()['file_name'];
-			$this->M_Su->guru_add($_POST);
-		}
-	}
-	function guru_update(){
-		$data = $_POST;
-		if ($_FILES['foto']['error'] < 1) {
-			if ( ! $this->upload->do_upload('foto')){
-				$error = array('error' => $this->upload->display_errors());
-				echo "<pre>";
-				print_r ($error);
-				echo "</pre>";
-			}else{
-				$data['foto'] = $this->upload->data()['file_name'];
-				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$data['id'])->get('guru')->result_array()[0]['foto']);
-			}
-		}
-		$this->M_Su->guru_update($data);
-	}
-	function guru_delete(){
-		$this->M_Su->guru_delete($_POST['guru_delete_id']);
-		redirect('su/guru');
-	}
 	function posts(){
 		$this->load->view('su/posts');
 	}
