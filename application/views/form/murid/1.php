@@ -4,11 +4,16 @@
 			<div class="file-field input-field col s12">
 				<div class="btn">
 					<span>Foto</span>
-					<input type="file" name="1_foto" onchange="loadImageFileAsUrl(this)">
+					<input type="file" name="1_foto" onchange="loadImageFileAsUrl(this)" class="belum" id="1_foto">
 				</div>
 				<div class="file-path-wrapper">
 					<input class="file-path validate" type="text">
 				</div>
+				<?php if($_SERVER['PATH_INFO'] === '/su/murid'){ ?>
+					<div class="red-text" id="foto-err">
+						Tolong unggah foto! <?=$_SERVER['PATH_INFO']?>
+					</div>
+				<?php } ?>
 			</div>
 			<div class="col s12" style="display: flex">
 				<img src="<?=isset($data) && $data['display'] === 'detail' ? ($data['murid'][1]['foto'] ? base_url().'uploads/murid/'.$data['murid'][1]['foto'] : base_url().'assets/img/samples/hitam.png') : base_url().'assets/img/samples/hitam.png'?>" id="preview" class='imgprev'>
@@ -82,6 +87,6 @@
 </div>
 <div class="row">
 	<div class="col right">
-		<button type="button" class="btn to2">Next</button>
+		<button type="button" class="btn to2" <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'disabled="disabled"' : '' ?>>Next</button>
 	</div>
 </div>

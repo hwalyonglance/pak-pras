@@ -1,5 +1,4 @@
 <?php
-	$this->load->view('_atas');
 	if (isset($_SERVER['HTTP_REFERER'])) {
 		if ( $this->session->userdata('is_role_0_logged_in') ) {
 			$this->load->view('su/_back',['to'=>'murid']);
@@ -7,7 +6,7 @@
 				'from:su/' => TRUE
 			]);
 			?>
-				<div id="modal_guru_edit" class="modal">
+				<div id="edit" class="modal">
 					<div class="modal-content">
 						<h3>Tambah Calon Murid</h3>
 						<?php $this->load->view('form/murid/index');?>
@@ -17,8 +16,8 @@
 					</div>
 				</div>
 				<div class="fixed-action-btn horizontal click-to-toggle">
-					<a class="btn-floating btn-large pulse pink accent-2" onclick="guru_edit()">
-						<i class="large material-icons">mode_edit</i>
+					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
+						<i class="large material-icons">add</i>
 					</a>
 					<!-- <ul>
 						<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
@@ -26,8 +25,8 @@
 				</div>
 				<script>
 					$('.modal').modal();
-					function guru_edit() {
-						$('#modal_guru_edit').modal('open');
+					function edit() {
+						$('#edit').modal('open');
 					}
 				</script>
 			<?php
@@ -41,7 +40,8 @@
 			padding-right: 10px;
 		}
 	</style>
-	<table class="bordered striped highlight responsive-table container">
+	<table class="mdl-data-table container" cellspacing="0" id="view">
+	<!-- <table class="bordered striped highlight responsive-table container"> -->
 		<tr>
 			<th>#No</th>
 			<th>Nama</th>
@@ -70,7 +70,12 @@
 		<?php $i++;} ?>
 	</table>
 	<script>
-		$('.tooltipped').tooltip()
+		$(document).ready(function(){
+			$('.tooltipped').tooltip()
+			$('#view').DataTable({
+				columnDefs: [ { targets: [ 0, 1, 2 ], className: 'mdl-data-table__cell--non-numeric' } ]
+			});
+		});
 	</script>
 <?php } else { ?>
 	<style>

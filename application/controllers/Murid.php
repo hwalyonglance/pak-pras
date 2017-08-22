@@ -19,6 +19,7 @@ class Murid extends CI_Controller {
 		$this->load->view('_atas');
 		$this->load->view('form/murid/index',[
 			'data' => [
+				'display' => NULL,
 				'murid' => NULL
 			]
 		]);
@@ -62,6 +63,7 @@ class Murid extends CI_Controller {
 		$this->M_Murid->update($data);
 	}
 	function calon($id=''){
+		$this->load->view('_atas');
 		$data = [
 			'display' => 'list',
 			'murid' => $this->db->select('id,foto,nama,ijazah,asal,nisn,skhu,jk')->order_by('id','DESC')->get('f1')->result_array()

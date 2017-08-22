@@ -56,26 +56,25 @@
 				<div class="collapsible-header a1 active">Data Pribadi Siswa/i</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/1');?></div>
 			</li>
-			<li class='disabled'>
-				<div class="collapsible-header a2">Keterangan Siswa/i</div>
+			<li>
+				<div class="collapsible-header a2 <?=$_SERVER['PATH_INFO'] === '/su/murid' && $this->session->userdata('is_role_0_logged_in')? 'hide' : '' ?>">Keterangan Siswa/i</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/2');?></div>
 			</li>
-			<li class='disabled'>
-				<div class="collapsible-header a3">Data Ayah</div>
+			<li>
+				<div class="collapsible-header a3 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Ayah</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/3');?></div>
 			</li>
-			<li class='disabled'>
-				<div class="collapsible-header a4">Data Ibu</div>
+			<li>
+				<div class="collapsible-header a4 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Ibu</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/4');?></div>
 			</li>
-			<li class='disabled'>
-				<div class="collapsible-header a5">Data Wali</div>
+			<li>
+				<div class="collapsible-header a5 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Wali</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/5');?></div>
 			</li>
 		</ul>
 	</form>
 </div>
-
 <script>
 	function loadImageFileAsUrl($this) {
 		let fileSelected = $this.files;
@@ -84,6 +83,8 @@
 			let fileReader = new FileReader();
 			fileReader.onload = function(fileLoadedEvent){
 				document.getElementById('preview').src = fileLoadedEvent.target.result;
+				$('#foto-err').hide()
+				$('.btn.to2').attr('disabled', null)
 			}
 			fileReader.readAsDataURL(fileToLoad);
 		}
@@ -91,16 +92,8 @@
 		$('#foto-err').hide()
 	}
 	$(document).ready(function(){
-		$('.disabled .collapsible-header').click(function(event) {
-			if ( $('.disabled .collapsible-header').hasClass('disabled') ) {
-				alert('aa')
-			} else {
-				alert('bb')
-				console.log(this)
-			}
-		});
-		$('.collapsible').collapsible();
-		$('select').material_select();
+		$('.collapsible').collapsible()
+		$('select').material_select()
 		$('.datepicker').pickadate({
 			selectMonths: true,
 			selectYears: 120,
@@ -109,32 +102,30 @@
 			close: 'Ok',
 			closeOnSelect: true,
 			container: undefined
-		});
-		$('textarea').trigger('autoresize');
+		})
+		$('textarea').trigger('autoresize')
 		$('.to1').click(function(event) {
-			$('.a1').click();
-		});
+			$('.a1').removeClass('hide').click()
+		})
 		$('.to2').click(function(event) {
-			$('.a2').click();
-		});
+			$('.a2').removeClass('hide').click()
+		})
 		$('.to3').click(function(event) {
-			$('.a3').click();
-		});
+			$('.a3').removeClass('hide').click()
+		})
 		$('.to4').click(function(event) {
-			$('.a4').click();
-		});
+			$('.a4').removeClass('hide').click()
+		})
 		$('.to5').click(function(event) {
-			$('.a5').click();
+			$('.a5').removeClass('hide').click()
 		});
 		function loadImageFileAsUrl() {
-			let fileSelected = document.getElementById('field').files;
+			let fileSelected = document.getElementById('field').files
 			if (fileSelected.length > 0) {
 				let fileToLoad = fileSelected[0]
-				let fileReader = new FileReader();
+				let fileReader = new FileReader()
 				fileReader.onload = function(fileLoadedEvent){
-					document.getElementById('lihat').src = fileLoadedEvent.target.result;
-					console.log(fileLoadedEvent.target.result)
-					alert()
+					document.getElementById('lihat').src = fileLoadedEvent.target.result
 				}
 				fileReader.readAsDataURL(fileToLoad);
 			}
