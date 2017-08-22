@@ -64,7 +64,7 @@ class Murid extends CI_Controller {
 	function calon($id=''){
 		$data = [
 			'display' => 'list',
-			'murid' => $this->db->select('id,nama,ijazah,asal,nisn,skhu,jk')->order_by('id','DESC')->get('f1')->result_array()
+			'murid' => $this->db->select('id,foto,nama,ijazah,asal,nisn,skhu,jk')->order_by('id','DESC')->get('f1')->result_array()
 		];
 		if ( ((int) $id) > 0 ) {
 			$data = [

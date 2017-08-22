@@ -17,6 +17,7 @@ class Su extends CI_Controller {
 		if ($type_or_id === 'edit') {
 			$this->load->view('form/murid/index',[
 				'data' => [
+					'display' => 'detail',
 					'murid' => $this->M_Murid->get($id)
 				]
 			]);

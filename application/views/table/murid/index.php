@@ -9,7 +9,7 @@
 			?>
 				<div id="modal_guru_edit" class="modal">
 					<div class="modal-content">
-						<h3>Edit Calon Murid</h3>
+						<h3>Tambah Calon Murid</h3>
 						<?php $this->load->view('form/murid/index');?>
 					</div>
 					<div class="modal-footer">

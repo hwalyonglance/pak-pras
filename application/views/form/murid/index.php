@@ -56,19 +56,19 @@
 				<div class="collapsible-header a1 active">Data Pribadi Siswa/i</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/1');?></div>
 			</li>
-			<li>
+			<li class='disabled'>
 				<div class="collapsible-header a2">Keterangan Siswa/i</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/2');?></div>
 			</li>
-			<li>
+			<li class='disabled'>
 				<div class="collapsible-header a3">Data Ayah</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/3');?></div>
 			</li>
-			<li>
+			<li class='disabled'>
 				<div class="collapsible-header a4">Data Ibu</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/4');?></div>
 			</li>
-			<li>
+			<li class='disabled'>
 				<div class="collapsible-header a5">Data Wali</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/5');?></div>
 			</li>
@@ -91,7 +91,14 @@
 		$('#foto-err').hide()
 	}
 	$(document).ready(function(){
-		$('.collapsible').collapsible();
+		$('.disabled .collapsible-header').click(function(event) {
+			if ( $('.disabled .collapsible-header').hasClass('disabled') ) {
+				alert('aa')
+			} else {
+				alert('bb')
+				console.log(this)
+			}
+		});
 		$('.collapsible').collapsible();
 		$('select').material_select();
 		$('.datepicker').pickadate({
