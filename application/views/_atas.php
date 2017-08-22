@@ -8,6 +8,7 @@
 	<script src="<?=base_url()?>assets/jquery/dist/jquery.min.js"></script>
 	<script src="<?=base_url()?>assets/materialize/js/materialize.min.js"></script>
 	<script src="<?=base_url()?>assets/materialize/js/masonry.pkgd.min.js"></script>
+	<script src="<?=base_url()?>assets/tinymce/tinymce.min.js"></script>
 	<style>
 		body{
 			padding: 64px 0;
