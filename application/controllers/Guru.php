@@ -3,6 +3,14 @@ class Guru extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('M_Guru');
+		$this->load->library('upload', [
+			'upload_path' => './uploads/guru/',
+			'allowed_types' => 'gif|jpg|png|jpeg',
+			'max_size' => 4096,
+			'max_width' => 4096,
+			'max_height' => 4096,
+			'encrypt_name' => TRUE,
+		]);
 	}
 	function index(){
 		$this->load->view('guru/index', [

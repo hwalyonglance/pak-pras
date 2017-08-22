@@ -7,14 +7,6 @@ class Su extends CI_Controller {
 		}
 		$this->load->model('M_Su');
 		$this->load->model('M_Murid');
-		$this->load->library('upload', [
-			'upload_path' => './uploads/guru/',
-			'allowed_types' => 'gif|jpg|png|jpeg',
-			'max_size' => 4096,
-			'max_width' => 4096,
-			'max_height' => 4096,
-			'encrypt_name' => TRUE,
-		]);
 	}
 	function index(){
 		$this->load->view('su/index');	

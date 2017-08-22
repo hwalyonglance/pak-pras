@@ -5,7 +5,7 @@
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
 			<li><a href="<?=base_url()?>">Home</a></li>
 			<li><a href="<?=base_url()?>murid/daftar">Pendaftaran</a></li>
-			<li><a href="<?=base_url()?>su/guru">Guru</a></li>
+			<li><a href="<?=base_url()?>guru/">Guru</a></li>
 			<li><a href="<?=base_url()?>murid/calon">murid</a></li>
 			<li><a href="<?=base_url()?>kegiatan">Kegiatan</a></li>
 			<li><a href="<?=base_url()?>login/admin">login/admin</a></li>

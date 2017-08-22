@@ -1,8 +1,8 @@
 <?php
 	$this->load->view('_atas');
 	if (isset($_SERVER['HTTP_REFERER'])) {
-		if ( ($_SERVER['HTTP_REFERER'] === base_url().'su/murid' && $_SERVER['PATH_INFO'] !== '/su/murid') ) {
-			$this->load->view('su/back');
+		if ( $this->session->userdata('is_role_0_logged_in') ) {
+			$this->load->view('su/_back',['to'=>'murid']);
 			$this->session->set_flashdata([
 				'from:su/' => TRUE
 			]);

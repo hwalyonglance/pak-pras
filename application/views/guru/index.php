@@ -1,7 +1,10 @@
 <?php
 	$this->load->view('_atas');
 	$this->load->view('_nav');
-	$this->load->view('form/guru/index');
+	if ($this->session->userdata('is_role_0_logged_in')) {
+		$this->load->view('su/_back', ['to'=>'guru']);
+		$this->load->view('form/guru/index');
+	}
 ?>
 <style>
 	.gdmw{
@@ -23,10 +26,10 @@
 				<div class="card">
 					<div class="card-image">
 						<img src="<?=base_url()?>uploads/guru/<?=$data['teachers'][$i]['foto']?>" style='max-height: 200px'>
-						<button class="btn-floating halfway-fab waves-effect waves-light red left" onclick='guru_delete(<?=json_encode($data['teachers'][$i])?>)'>
+						<button class="btn-floating halfway-fab waves-effect waves-light red left" onclick='drop(<?=json_encode($data['teachers'][$i])?>)'>
 							<i class="material-icons">delete_forever</i>
 						</button>
-						<button class="btn-floating halfway-fab waves-effect waves-light green right" onclick='guru_edit(<?=json_encode($data['teachers'][$i])?>)'>
+						<button class="btn-floating halfway-fab waves-effect waves-light green right" onclick='edit(<?=json_encode($data['teachers'][$i])?>)'>
 							<i class="material-icons">mode_edit</i>
 						</button>
 					</div>
@@ -48,27 +51,6 @@
 			</div>
 		<?php } ?>
 	</div>
-</div>
-<!-- FORM DELETE -->
-<?=form_open('guru/delete',[],['guru_id'=>'0'])?>
-	<div id="guru_delete" class="modal gdmw">
-		<div class="modal-content">
-			<h4 class="center">Hapus Guru ini?</h4>
-			<p>Nama: <span class="nama"></span></p>
-		</div>
-		<div class="modal-footer">
-			<button class="waves-effect waves-green btn-flat" type="submit">Agree</button>
-		</div>
-	</div>
-</form>
-<!-- FLOATING BUTTON -->
-<div class="fixed-action-btn horizontal click-to-toggle" onclick="add()">
-	<a class="btn-floating btn-large pulse pink accent-2">
-		<i class="large material-icons">add</i>
-	</a>
-	<!-- <ul>
-		<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-	</ul> -->
 </div>
 <script>
 	$(document).ready(function() {

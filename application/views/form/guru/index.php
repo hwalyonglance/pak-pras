@@ -1,3 +1,4 @@
+<!-- FORM ADD || UPDATE -->
 <?=form_open_multipart('guru/add',['id'=>'fg'],['id'=>null])?>
 	<div id="add" class="modal">
 		<div class="modal-content">
@@ -42,6 +43,27 @@
 		</div>
 	</div>
 </form>
+<!-- FORM DELETE -->
+<?=form_open('guru/delete',[],['guru_id'=>'0'])?>
+	<div id="drop" class="modal gdmw">
+		<div class="modal-content">
+			<h4 class="center">Hapus Guru ini?</h4>
+			<p>Nama: <span class="nama"></span></p>
+		</div>
+		<div class="modal-footer">
+			<button class="waves-effect waves-green btn-flat" type="submit">Agree</button>
+		</div>
+	</div>
+</form>
+<!-- FLOATING BUTTON -->
+<div class="fixed-action-btn horizontal click-to-toggle" onclick="add()">
+	<a class="btn-floating btn-large pulse pink accent-2">
+		<i class="large material-icons">add</i>
+	</a>
+	<!-- <ul>
+		<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+	</ul> -->
+</div>
 <script>
 	function loadImageFileAsUrl($this) {
 		let fileSelected = $this.files
@@ -79,8 +101,8 @@
 		$('#foto-err').hide()
 		$('#submit').attr('disabled',null)
 	}
-	function remove(guru){
-		$('#remove').modal('open')
+	function drop(guru){
+		$('#drop').modal('open')
 		$('[name="guru_id"]').val(guru.id)
 		$('span.nama').text(guru.nama)
 	}
