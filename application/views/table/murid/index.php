@@ -17,7 +17,7 @@
 				</div>
 				<div class="fixed-action-btn horizontal click-to-toggle">
 					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-						<i class="large material-icons">add</i>
+						<i class="large material-icons">mode_edit</i>
 					</a>
 					<!-- <ul>
 						<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>

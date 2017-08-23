@@ -3,10 +3,11 @@ class M_Pdf {
 	protected $CI;
 	function __construct(){
 		$this->CI =& get_instance();
-		require_once APPPATH.'/third_party/mpdf/src/Mpdf.php';
-		$this->MPdf = new Mpdf();
+		log_message('Debug','mpdf loaded');
 	}
-	
+	function load($param=NULL){
+		
+	}
 
 }
 

@@ -57,19 +57,19 @@
 				<div class="collapsible-body"><?php $this->load->view('form/murid/1');?></div>
 			</li>
 			<li>
-				<div class="collapsible-header a2 <?=$_SERVER['PATH_INFO'] === '/su/murid' && $this->session->userdata('is_role_0_logged_in')? 'hide' : '' ?>">Keterangan Siswa/i</div>
+				<div class="collapsible-header a2 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Keterangan Siswa/i</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/2');?></div>
 			</li>
 			<li>
-				<div class="collapsible-header a3 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Ayah</div>
+				<div class="collapsible-header a3 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ayah</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/3');?></div>
 			</li>
 			<li>
-				<div class="collapsible-header a4 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Ibu</div>
+				<div class="collapsible-header a4 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ibu</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/4');?></div>
 			</li>
 			<li>
-				<div class="collapsible-header a5 <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'hide' : '' ?>">Data Wali</div>
+				<div class="collapsible-header a5 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Wali</div>
 				<div class="collapsible-body"><?php $this->load->view('form/murid/5');?></div>
 			</li>
 		</ul>

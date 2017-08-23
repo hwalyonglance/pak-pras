@@ -9,7 +9,7 @@
 				<div class="file-path-wrapper">
 					<input class="file-path validate" type="text">
 				</div>
-				<?php if($_SERVER['PATH_INFO'] === '/su/murid'){ ?>
+				<?php if( in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ){ ?>
 					<div class="red-text" id="foto-err">
 						Tolong unggah foto! <?=$_SERVER['PATH_INFO']?>
 					</div>
@@ -87,6 +87,6 @@
 </div>
 <div class="row">
 	<div class="col right">
-		<button type="button" class="btn to2" <?=$_SERVER['PATH_INFO'] === '/su/murid'? 'disabled="disabled"' : '' ?>>Next</button>
+		<button type="button" class="btn to2" <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'disabled="disabled"' : '' ?>>Next</button>
 	</div>
 </div>
