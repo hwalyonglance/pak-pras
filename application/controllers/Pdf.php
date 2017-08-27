@@ -2,6 +2,9 @@
 class Pdf extends CI_Controller {
 	function __construct(){
 		parent::__construct();
+		if (!$this->session->userdata('is_role_0_logged_in')) {
+			redirect('login/admin');
+		}
 		$this->load->model('M_Murid');
 		require_once APPPATH.'/third_party/mpdf/mpdf.php';
 		$this->pdf =  new mPDF("en-GB-x", "A4", "", "", 10,10,10,10, "6", "3", "P");
@@ -27,7 +30,7 @@ class Pdf extends CI_Controller {
 		$this->pdf =  new mPDF("en-GB-x", "A4", "", "", 10,10,10,10, "6", "3", "P");	
 		$this->pdf->WriteHTML($this->load->view('_atas',[],TRUE));
 		$this->pdf->WriteHTML($this->load->view('table/murid/index', $data, TRUE));
-		$this->pdf->output('reports/murid/'.$from.'-'.$to.'/'.$i.'.'.$nama.'-'.$asal.'.pdf');
+		$this->pdf->output('reports/murid/'.$from.'-'.$to.'/'.$i.'.'.str_replace(' ', '_', $nama).'-'.str_replace(' ', '_', $asal).'.pdf');
 	}
 }
 
