@@ -4,10 +4,32 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col s12 m12 l6 xl6">
+	<div class="col s6 m6 l6 xl6">
 		<table>
-			<colgroup style="width: 20% !important"></colgroup>
-			<colgroup style="width: 80% !important"></colgroup>
+			<!-- <colgroup style="width: 80px !important"></colgroup> -->
+			<tr>
+				<td></td>
+				<td>
+					<img src="<?=base_url()?>uploads/murid/<?=$data['murid'][1]['foto']?>" class='img-1-foto hoverable'>
+				</td>
+			</tr>
+			<tr>
+				<td>Asal SMP</td>
+				<td>: <?=$data['murid'][1]['asal']?></td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>: <?=$data['murid'][1]['agama']?></td>
+			</tr>
+			<tr>
+				<td>TTL</td>
+				<td>: <?=$data['murid'][1]['tempat_l']?>, <?=$data['murid'][1]['tanggal_l']?></td>
+			</tr>
+		</table>
+	</div>
+	<div class="col s6 m6 l6 xl6">
+		<table>
+			<!-- <colgroup style="width: 80px !important"></colgroup> -->
 			<tr>
 				<td>#ID</td>
 				<td>: <?=$data['murid'][1]['id']?></td>
@@ -46,36 +68,11 @@
 			</tr>
 		</table>
 	</div>
-	<div class="col s12 m12 l6 xl6">
-		<table>
-			<colgroup style="width: 20% !important"></colgroup>
-			<colgroup style="width: 80% !important"></colgroup>
-			<tr>
-				<td></td>
-				<td>
-					<img src="<?=base_url()?>uploads/murid/<?=$data['murid'][1]['foto']?>" class='img-1-foto hoverable'>
-				</td>
-			</tr>
-			<tr>
-				<td>Asal SMP</td>
-				<td>: <?=$data['murid'][1]['asal']?></td>
-			</tr>
-			<tr>
-				<td>Agama</td>
-				<td>: <?=$data['murid'][1]['agama']?></td>
-			</tr>
-			<tr>
-				<td>TTL</td>
-				<td>: <?=$data['murid'][1]['tempat_l']?>, <?=$data['murid'][1]['tanggal_l']?></td>
-			</tr>
-		</table>
-	</div>
 </div>
 <div class="row">
 	<div class="col s12">
 		<table>
-			<colgroup style="width: 10%"></colgroup>
-			<colgroup style="width: 90%"></colgroup>
+			<!-- <colgroup style="width: 80px"></colgroup> -->
 			<tr>
 				<td>Alamat</td>
 				<td>: <?=$data['murid'][1]['alamat']?></td>

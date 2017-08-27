@@ -4,10 +4,9 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col s12 m12 l6 xl6">
+	<div class="col s6 m6 l6 xl6">
 		<table>
-			<colgroup style="width: 20% !important"></colgroup>
-			<colgroup style="width: 80% !important"></colgroup>
+			<colgroup style="width: 80px !important"></colgroup>
 			<tr>
 				<td>#ID</td>
 				<td>: <?=$data['murid'][2]['id']?></td>
@@ -34,10 +33,9 @@
 			</tr>
 		</table>
 	</div>
-	<div class="col s12 m12 l6 xl6">
+	<div class="col s6 m6 l6 xl6">
 		<table>
-			<colgroup style="width: 20% !important"></colgroup>
-			<colgroup style="width: 80% !important"></colgroup>
+			<colgroup style="width: 80px !important"></colgroup>
 			<tr>
 				<td>Kegiatan</td>
 				<td>: <?=$data['murid'][2]['kegiatan_diluar']?></td>
@@ -65,4 +63,4 @@
 		</table>
 	</div>
 </div>
-<!-- .container>(.row>.col.s12>h2.center)+(.row>.col.s12.m12.l6.xl6*2>table>(tr>td*3)*5) -->
+<!-- .container>(.row>.col.s12>h2.center)+(.row>.col.s12.m6.l6.xl6*2>table>(tr>td*3)*5) -->

@@ -8,7 +8,11 @@
 			?>
 				<div id="edit" class="modal">
 					<div class="modal-content">
-						<h3>Tambah Calon Murid</h3>
+						<?php if( in_array($_SERVER['PATH_INFO'], ['/su/murid']) ){ ?>
+							<h3>Tambah Calon Murid</h3>
+						<?php }else{ ?>
+							<h3>Edit Calon Murid</h3>
+						<?php } ?>
 						<?php $this->load->view('form/murid/index');?>
 					</div>
 					<div class="modal-footer">
@@ -16,9 +20,15 @@
 					</div>
 				</div>
 				<div class="fixed-action-btn horizontal click-to-toggle">
-					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-						<i class="large material-icons">mode_edit</i>
-					</a>
+					<?php if( $this->session->userdata('is_role_0_logged_in') ){ ?>
+						<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
+							<i class="large material-icons">add</i>
+						</a>
+					<?php }else{ ?>
+						<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
+							<i class="large material-icons">mode_edit</i>
+						</a>
+					<?php } ?>
 					<!-- <ul>
 						<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
 					</ul> -->
@@ -63,8 +73,11 @@
 				<td><?=$murid['jk']?></td>
 				<td>
 					<a href="<?=base_url()?>murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
-					<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>
-					<a href="<?=base_url()?>su/murid_delete/<?=$murid['id']?>" class="btn tooltipped red" data-tooltip='Delete'><i class="material-icons">delete_forever</i></a>
+					<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+						<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>
+						<a href="<?=base_url()?>su/murid_delete/<?=$murid['id']?>" class="btn tooltipped red" data-tooltip='Delete'><i class="material-icons">delete_forever</i></a>
+						<a href="<?=base_url()?>pdf/murid/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='PDF'><i class="material-icons">print</i></a>
+					<?php } ?>
 				</td>
 			</tr>
 		<?php $i++;} ?>
