@@ -50,8 +50,7 @@
 			padding-right: 10px;
 		}
 	</style>
-	<table class="mdl-data-table container" cellspacing="0" id="view">
-	<!-- <table class="bordered striped highlight responsive-table container"> -->
+	<table class="bordered striped highlight responsive-table container">
 		<tr>
 			<th>#No</th>
 			<th>Nama</th>
@@ -60,7 +59,9 @@
 			<th>Ijazah</th>
 			<th>SKHU</th>
 			<th>Jenis Kelamin</th>
-			<th>$Action</th>
+			<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+				<th>$Action</th>
+			<?php } ?>
 		</tr>
 		<?php $i=1; foreach ($data['murid'] as $murid) { ?>
 			<tr>
@@ -71,23 +72,20 @@
 				<td><?=$murid['ijazah']?></td>
 				<td><?=$murid['skhu']?></td>
 				<td><?=$murid['jk']?></td>
-				<td>
-					<a href="<?=base_url()?>murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
-					<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+				<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+					<td>
+						<a href="<?=base_url()?>murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
 						<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>
 						<a href="<?=base_url()?>su/murid_delete/<?=$murid['id']?>" class="btn tooltipped red" data-tooltip='Delete'><i class="material-icons">delete_forever</i></a>
 						<a href="<?=base_url()?>pdf/murid/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='PDF'><i class="material-icons">print</i></a>
-					<?php } ?>
-				</td>
+					</td>
+				<?php } ?>
 			</tr>
 		<?php $i++;} ?>
 	</table>
 	<script>
 		$(document).ready(function(){
 			$('.tooltipped').tooltip()
-			$('#view').DataTable({
-				columnDefs: [ { targets: [ 0, 1, 2 ], className: 'mdl-data-table__cell--non-numeric' } ]
-			});
 		});
 	</script>
 <?php } else { ?>
