@@ -55,10 +55,8 @@
 			<th>#No</th>
 			<th>Nama</th>
 			<th>Asal Sekolah</th>
-			<th>NISN</th>
-			<th>Ijazah</th>
-			<th>SKHU</th>
 			<th>Jenis Kelamin</th>
+			<th>Tanggal Daftar</th>
 			<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
 				<th>$Action</th>
 			<?php } ?>
@@ -68,10 +66,8 @@
 				<td><?=$i?></td>
 				<td><?=$murid['nama']?></td>
 				<td><?=$murid['asal']?></td>
-				<td><?=$murid['nisn']?></td>
-				<td><?=$murid['ijazah']?></td>
-				<td><?=$murid['skhu']?></td>
 				<td><?=$murid['jk']?></td>
+				<td><?=$murid['created_at']?></td>
 				<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
 					<td>
 						<a href="<?=base_url()?>murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
