@@ -20,16 +20,20 @@
 							<label for="pel" class="active">Pelajaran</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="u" type="text" name="u" class="validate" onkeyup="onKeyUp(this)">
+							<input id="u" type="text" name="u" class="validate" onkeyup="usernameOnKeyUp(this)">
 							<label for="u" class="active">Username</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="p" type="text" name="p" class="validate">
+							<input id="p" type="password" name="p" class="validate">
 							<label for="p" class="active">Password</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="p2" type="text" name="p2" class="validate">
+							<input id="p2" type="password">
 							<label for="p2" class="active">Password</label>
+						</div>
+						<div class="input-field col s12">
+							<textarea id="bio" name="bio" class="materialize-textarea"></textarea>
+							<label for="bio">Bio</label>
 						</div>
 					</div>
 				</div>
@@ -85,6 +89,13 @@
 	</ul> -->
 </div>
 <script>
+	setInterval(function(){
+		if ( $('#u').hasClass('invalid') || $('#p2').hasClass('invalid') || !$('#foto-err').hasClass('hide')) {
+			$('#submit').attr('disabled','disabled')
+		}else{
+			$('#submit').attr('disabled',null)
+		}
+	}, 1000)
 	function loadImageFileAsUrl($this) {
 		let fileSelected = $this.files
 		if (fileSelected.length > 0) {
@@ -95,10 +106,9 @@
 			}
 			fileReader.readAsDataURL(fileToLoad)
 		}
-		$('#submit').attr('disabled',null)
-		$('#foto-err').hide()
+		$('#foto-err').addClass('hide')
 	}
-	function onKeyUp($this){
+	function usernameOnKeyUp($this){
 		if ($this.value !== '') {
 			$.ajax({
 				url: '<?=base_url()?>guru/u',
@@ -115,8 +125,19 @@
 					}
 				}
 			})
+		}else{
+			$('[for="u"]').text('Username')
 		}
 	}
+	$('#p, #p2').keyup(function(event) {
+		if ( $('#p').val() === $('#p2').val() ) {
+			$('[for="p2"]').text('Password cocok')
+			$('#p2').removeClass('invalid').addClass('valid')
+		}else{
+			$('[for="p2"]').text('Password tidak cocok')
+			$('#p2').removeClass('valid').addClass('invalid')
+		}
+	})
 	function add(){
 		$('#nama').val('')
 		$('#pel').val('')
