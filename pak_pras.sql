@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 22, 2017 at 08:07 AM
+-- Generation Time: Aug 28, 2017 at 04:55 PM
 -- Server version: 10.1.22-MariaDB
 -- PHP Version: 7.1.4
 
@@ -192,7 +192,69 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('t6ro3ru4380icehjk61v8r66ahuakqta', '127.0.0.1', 1503381084, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338313038343b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226f6c64223b7d),
 ('b328ltae4tas7lodddmn9j5ml0qjprc7', '127.0.0.1', 1503381399, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338313339393b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
 ('4avefkqf3ij5utbqjo27hkarrnu1qsav', '127.0.0.1', 1503381782, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338313738323b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
-('0msgbqd9jf8r8hk1irp63l1i8qb4mbe0', '127.0.0.1', 1503381993, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338313738323b69735f726f6c655f305f6c6f676765645f696e7c623a313b);
+('0msgbqd9jf8r8hk1irp63l1i8qb4mbe0', '127.0.0.1', 1503382101, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338323130313b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('6un82vrchikot460dojailq8uqk37n2j', '127.0.0.1', 1503382455, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338323435353b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('lljpame85n06tppfhf062nrq8898gp83', '127.0.0.1', 1503382980, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338323938303b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('5bs57brnvq42kefs39rm4svn5ejo4b19', '127.0.0.1', 1503383317, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338333331373b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('gf902b7t0pehk3go8c68kc423sjr4g82', '127.0.0.1', 1503383618, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338333631383b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('of5bks8cj07oilio8pqrvqc943km7cgd', '127.0.0.1', 1503383899, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333338333631383b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226f6c64223b7d),
+('hilsd5ui7lmh9cl9kiejmahu5ajj4m3t', '127.0.0.1', 1503451855, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435313835353b),
+('b3dhj1aoi1ug08qrte86o5s8qj5560e2', '127.0.0.1', 1503452248, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435323234383b),
+('eg9pklfrbjq8vjvdr4ulrl4lkpv40vtd', '127.0.0.1', 1503452656, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435323635363b),
+('kd8i0ut548voj8tnsgf1g0sie2089hfa', '127.0.0.1', 1503453033, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435333033333b),
+('rgnjbgq7nnumcm3d6gbrl7ok0aa5dhfd', '127.0.0.1', 1503453442, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435333434323b),
+('4n04bjqjva9q7f69igh0sbqbfv1hqlih', '127.0.0.1', 1503453848, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435333834383b),
+('9tgi2746s9juc0fjo3g4h5f3emn3kg91', '127.0.0.1', 1503454150, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435343135303b),
+('omudpepbghfe7udv1d4bdlvod5fren02', '127.0.0.1', 1503454452, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435343435323b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('nretbe8dv0gsav3v1q7sbb5kthfcseab', '127.0.0.1', 1503454758, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435343735383b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('jf07n08ggu0va84meem4cljchkq3oj34', '127.0.0.1', 1503455139, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435353133393b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('f1el3p7n4gosf70842h363j01mple723', '127.0.0.1', 1503455450, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435353435303b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('q2pc6nd2n7e530tp2q4ei9cibo99qbeb', '127.0.0.1', 1503455781, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435353738313b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('jn5m7fl753nt6qpd27381siugr6cflit', '127.0.0.1', 1503456813, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435363831333b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('6kjd4ogcbq7n1p219g98ijqttgjb87pf', '127.0.0.1', 1503457455, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435373435353b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('e2cv4kqa3an4n4lvq5tie2uvk1rku477', '127.0.0.1', 1503457852, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435373835323b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('tss288t5ib5pqkgdf2csnp35oulicu0t', '127.0.0.1', 1503458200, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435383230303b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('v54nd9qfakpkphv71ahiem2s7ugjnmqm', '127.0.0.1', 1503458833, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435383833333b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('scvehatm72pu7v05mkbmhdf0ve239not', '127.0.0.1', 1503459198, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435393139383b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('s4qhjvr31cp4t9t1hpvqv37rfr91scq3', '127.0.0.1', 1503459539, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435393533393b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('gog14gf4dlnmtichoe46ar6nmnstlp95', '127.0.0.1', 1503459698, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333435393533393b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('nrk0003qmphpjm6dfonbb4nkeb5vg7es', '127.0.0.1', 1503467065, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436373036353b),
+('3hs65ouvgaj75pk9l0enj058q0fqk9ua', '127.0.0.1', 1503467767, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436373736373b),
+('ctqhb3kec76ta7ucgii0qn7sscre5naf', '127.0.0.1', 1503468916, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436383931363b),
+('6tvvr11s2l9drgjkafcomk2lgcoj7b1k', '127.0.0.1', 1503469362, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436393336323b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('iq5u3iglu7rqc1h7qa8es4kpqbafd7u3', '127.0.0.1', 1503469678, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436393637383b69735f726f6c655f305f6c6f676765645f696e7c623a303b),
+('iav1is4r2nrfecrvcriokepv4cjf7v6n', '127.0.0.1', 1503469990, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333436393939303b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('cq161c6dqkjdhu18tiut7vba9gbnf1qk', '127.0.0.1', 1503470339, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437303333393b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('iarabeneuhkog4armu1v7mbhro1kjmao', '127.0.0.1', 1503470642, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437303634323b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('80fn6gvtqqand1bh1a04sc54v13tfa51', '127.0.0.1', 1503471841, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437313834313b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('pv0pv6v1ripkavv4uvoo692t7cj159lt', '127.0.0.1', 1503472147, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437323134373b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('t4du6inbta0199cuv648jqtk13ucl85h', '127.0.0.1', 1503472450, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437323435303b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('mlfmurmotf5eujbl9tftjsepsgsiat4r', '127.0.0.1', 1503472742, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333437323435303b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('fg9nm1ua1bi41sp0jbeh0o5rjp4rjcis', '127.0.0.1', 1503844357, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834343335373b),
+('gfrl96jm79n7pmbm0k6bp4c92f9pnsmb', '127.0.0.1', 1503844677, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834343637373b),
+('2cr5o7244ive72sat4fde0bin2csah5o', '127.0.0.1', 1503844998, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834343939383b),
+('kp9qig5s28qvigl6fd7tgupgujj5da07', '127.0.0.1', 1503845778, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834353737383b69735f726f6c655f305f6c6f676765645f696e7c623a313b66726f6d3a73752f7c623a313b5f5f63695f766172737c613a313a7b733a383a2266726f6d3a73752f223b733a333a226e6577223b7d),
+('8he7i2lnv765jc9qd354797hjbstcivi', '127.0.0.1', 1503846113, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834363131333b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('nqve4leg0nk8rv9at4c4qqhumnk8l1sq', '127.0.0.1', 1503846750, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834363735303b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('mls87ual1pphbk1o9vks72m64528lo09', '127.0.0.1', 1503847074, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834373037343b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('p7cs4a5ikuaq0h749h0ooftvvrm0n59k', '127.0.0.1', 1503847453, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834373435333b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('95e1thmjt7jev1ljojeuj3vgluuft422', '127.0.0.1', 1503847812, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834373831323b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('poohu5tsrqi3gki86bum6gji7pjp0b4c', '127.0.0.1', 1503848419, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834383431393b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('cdo515fp602toc763e8o04a7t139npv0', '127.0.0.1', 1503848426, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333834383431393b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('elefh3b80us3cnq3eje1fb9q7n7nb6eg', '127.0.0.1', 1503926020, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932363032303b),
+('t2bbjinasrfi3qjsa5a7mi8ql6sk9os6', '127.0.0.1', 1503926325, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932363332353b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('bqgdah7rokavoh3b4lk4a6gm32do50rm', '127.0.0.1', 1503926630, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932363633303b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('v6d22jpepg217v3ca5opl948t2j5dac9', '127.0.0.1', 1503926974, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932363937343b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('24mribkceoah0d3p43kt0vt85jdg7vne', '127.0.0.1', 1503928457, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932383435373b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('fa6hja90tiud5imbmnsits51v7iq6u37', '127.0.0.1', 1503928789, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932383738393b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('h549b6g56oat7id0odkrmvnnl64usncm', '127.0.0.1', 1503929116, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932393131363b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('3mv3f7nqfl7ktp3nbgqm20a5ie33fs1a', '127.0.0.1', 1503929539, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333932393533393b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('emerm9l8de7aeqb601s0clg8b2v2vd6p', '127.0.0.1', 1503930415, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933303431353b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('u5en11791qc26e3fr5fvne7eogbn62bk', '127.0.0.1', 1503930928, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933303932383b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('af5r90pfnkotig79a6otrbj7kv5cbjj0', '127.0.0.1', 1503931310, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933313331303b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('3an3kbv5cc64tn2jd3lv2uejn3bma3k1', '127.0.0.1', 1503931628, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933313632383b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('qlbmnq8a9v8ahihrcap3jrt4r6ndtdej', '127.0.0.1', 1503931964, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933313936343b69735f726f6c655f305f6c6f676765645f696e7c623a313b),
+('9iublpg1im19e3n9bv30u4hlpqhks6if', '127.0.0.1', 1503931998, 0x5f5f63695f6c6173745f726567656e65726174657c693a313530333933313936343b69735f726f6c655f305f6c6f676765645f696e7c623a313b);
 
 -- --------------------------------------------------------
 
@@ -225,32 +287,12 @@ CREATE TABLE `f1` (
 --
 
 INSERT INTO `f1` (`id`, `nama`, `foto`, `tempat_l`, `tanggal_l`, `nik`, `asal`, `ijazah`, `nisn`, `alamat`, `skhu`, `lulus`, `agama`, `goldar`, `jk`, `created_at`, `updated_at`) VALUES
-(11, 'edit', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '0000-00-00', '1agama', 'A', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-20 05:54:26'),
-(12, 'me', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '2015-05-04', '1agama', '', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-19 21:56:14'),
-(13, 'jangan x', '', '1tempat_l', '1970-01-01', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '1970-01-01', '1agama', 'A', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-20 17:15:22'),
-(14, '4', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '0000-00-00', '1agama', 'A', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-20 06:04:20'),
-(15, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '2015-05-04', '1agama', '', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-19 21:56:14'),
-(16, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '2015-05-04', '1agama', '', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-19 21:56:14'),
-(17, '7', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '			1alamat\r\n		', 1, '0000-00-00', '1agama', 'A', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-20 06:05:38'),
-(18, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '', '1alamat', 1, '2015-05-04', '1agama', '', 'Laki-Laki', '2017-08-16 09:57:03', '2017-07-19 21:56:14'),
-(20, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:03:50', '2017-07-19 21:56:14'),
-(50, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:05:59', '2017-07-19 21:56:14'),
-(503, '1nama', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:07:28', '2017-07-19 21:56:14'),
-(504, 'Rusman Wahab', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:09:38', '2017-07-19 21:56:14'),
-(505, 'Rusman Wahab', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:18:46', '2017-07-19 21:56:14'),
-(506, 'Rusman Wahab', '', 'Bandung', '0000-00-00', 123123123, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:33:22', '2017-07-19 21:56:14'),
-(507, 'Muhammad Adam', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:34:05', '2017-07-19 21:56:14'),
-(508, 'Muhammad Adam', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:35:18', '2017-07-19 21:56:14'),
-(509, 'Rusman Wahab', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-16 21:35:58', '2017-07-19 21:56:14'),
-(510, 'Rusman Wahab', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-08-17 05:43:43', '2017-07-19 21:56:14'),
-(511, 'Ilham Dz', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-07-18 06:39:58', '2017-07-19 21:56:14'),
-(512, 'Ilham Dz', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-07-18 06:41:05', '2017-07-19 21:56:14'),
-(513, 'Fahrul Fauzi', '', '1tempat_l', '0000-00-00', 1, '1asal', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-07-19 10:58:33', '2017-07-19 21:56:14'),
-(514, 'fahrul fauzi ananda', '', 'bandung ', '0000-00-00', 87654444, 'smp 4', '1ijazah', '1[nisn]', '1alamat', 1, '2015-05-04', '1agama', 'A', 'Laki-Laki', '2017-07-19 11:54:48', '2017-07-19 21:56:14'),
-(515, 'Rusman Wahab', 'eb78701c1840c09da03c99f8c266a5f5.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-07-20 16:50:04', '2017-07-20 17:11:54'),
-(516, '', '1470a7f28cb76aa040da2b0cad9c09f4.png', '', '0000-00-00', 0, '', '', '', '', 0, '0000-00-00', '', 'A', 'Laki-Laki', '2017-07-20 16:57:32', NULL),
-(517, 'contextmenu.png', '04189e66fdb286680310ffcc3febee63.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-07-20 16:58:41', '2017-08-22 13:05:27'),
-(518, 'Rusman--Wahab', '86c11d094301b7c46e4be6fa14f9ab27.png', '', '1970-01-01', 0, '', '', '', '', 0, '2017-05-04', '', 'A', 'Laki-Laki', '2017-07-20 17:05:22', NULL);
+(1, '500x500', '010d8abfa3a6ae7b199b7601a5b6db4c.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-22 13:36:08', NULL),
+(2, 'Rusman Wahab', 'dca3c710441c39f7fee981cfcb897eac.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-22 13:36:52', NULL),
+(3, 'hitam.png', 'c7e0ee1d0405dd9f410643231cdee9c3.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-22 13:38:05', NULL),
+(4, 'MARCEL', '0073bd4afc92affca598b93fef2bb45f.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-23 13:26:15', NULL),
+(5, 'Rusman Wahab', 'ea89341207bf18b81dc14b82dec6ab6c.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-23 14:14:10', NULL),
+(6, 'ASJKASKJNK', 'e7e297bba02147b97a1719618f3623ca.png', '', '1970-01-01', 0, '', '', '', '', 0, '1970-01-01', '', 'A', 'Laki-Laki', '2017-08-23 14:16:14', NULL);
 
 -- --------------------------------------------------------
 
@@ -278,32 +320,12 @@ CREATE TABLE `f2` (
 --
 
 INSERT INTO `f2` (`id`, `panggilan`, `j_saudara`, `tinggi`, `hobby`, `kegiatan_diluar`, `eskul`, `status`, `berat`, `prestasi`, `hp`, `email`) VALUES
-(0, '2panggilan', 1, '100', '2hobby', '', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(11, '2panggilan', 1, '100', '2hobby', '', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(12, '2panggilan', 1, '100', '2hobby', '2kegiatan', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(13, '2panggilan', 1, '100', '2hobby', '', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(14, '2panggilan', 1, '100', '2hobby', '', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(15, '2panggilan', 1, '100', '2hobby', '2kegiatan', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(16, '2panggilan', 1, '100', '2hobby', '2kegiatan', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(17, '2panggilan', 1, '100', '2hobby', '', '			2eskul\r\n		', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(18, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(50, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(503, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(504, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(505, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(506, '2panggilan', 1, '100', '2hobby', '2kegiatan', 'tidak ada', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(507, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(508, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(509, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(510, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(511, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(512, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(513, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(514, '2panggilan', 1, '100', '2hobby', '2kegiatan', '2eskul', 'Lengkap', '30', '2prestasi', '2hp', ''),
-(515, '', 1, '100', '', '', '', 'Lengkap', '30', '', '2tel', ''),
-(516, '', 1, '100', '', '', '', 'Lengkap', '30', '', '2tel', ''),
-(517, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
-(518, '', 1, '100', '', '', '', 'Lengkap', '30', '', '2tel', '');
+(1, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
+(2, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
+(3, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
+(4, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
+(5, '', 0, '', '', '', '', 'Lengkap', '', '', '', ''),
+(6, '', 0, '', '', '', '', 'Lengkap', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -332,32 +354,12 @@ CREATE TABLE `f3` (
 --
 
 INSERT INTO `f3` (`id`, `nama`, `pekerjaan`, `tempat_l`, `lahir`, `agama`, `tel`, `kewarganegaraan`, `pendidikan_t`, `p_perbulan`, `kps`, `tempat_k`, `alamat`) VALUES
-(0, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(11, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(12, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(13, '3nama', '3pekerjaan', '3tempat_l', '1970-01-01', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(14, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(15, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(16, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(17, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '			3alamat\r\n		'),
-(18, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(50, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(503, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(504, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(505, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(506, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', 'sama'),
-(507, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(508, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(509, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(510, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(511, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(512, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(513, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(514, '3nama', '3pekerjaan', '3tempat_l', '0000-00-00', '3agama', '3hp', '3negara', 'TK', '3000', '3kps', '3usaha', '3alamat'),
-(515, '', '', '', '1970-01-01', '', '', '', 'TK', '3000', '', '', ''),
-(516, '', '', '', '0000-00-00', '', '', '', 'TK', '3000', '', '', ''),
-(517, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
-(518, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
+(1, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(2, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(3, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(4, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(5, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(6, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -386,32 +388,12 @@ CREATE TABLE `f4` (
 --
 
 INSERT INTO `f4` (`id`, `nama`, `pekerjaan`, `tempat_l`, `lahir`, `agama`, `tel`, `kewarganegaraan`, `pendidikan_t`, `p_perbulan`, `kps`, `tempat_k`, `alamat`) VALUES
-(0, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(11, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(12, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(13, '4nama', '4pekerjaan', '4tempat_l', '1970-01-01', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(14, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(15, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(16, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(17, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '			3alamat\r\n		'),
-(18, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(50, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(503, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(504, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(505, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(506, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(507, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(508, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(509, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(510, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(511, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(512, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(513, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(514, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '41000', '4kps', '4usaha', '3alamat'),
-(515, '', '', '', '1970-01-01', '', '', '', 'TK', '3000', '', '', ''),
-(516, '', '', '', '0000-00-00', '', '', '', 'TK', '4000', '', '', ''),
-(517, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
-(518, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
+(1, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(2, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(3, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(4, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(5, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(6, '', '', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -440,32 +422,12 @@ CREATE TABLE `f5` (
 --
 
 INSERT INTO `f5` (`id`, `nama`, `pekerjaan`, `tempat_l`, `lahir`, `agama`, `tel`, `kewarganegaraan`, `pendidikan_t`, `p_perbulan`, `kps`, `tempat_k`, `alamat`) VALUES
-(0, '4nama', '54pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(11, '4nama', '5554pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(12, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(13, '4nama', '554pekerjaan', '4tempat_l', '1970-01-01', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(14, '4nama', '54pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(15, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(16, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(17, '4nama', '54pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '			3alamat\r\n		'),
-(18, '4nama', '4pekerjaan', '4tempat_l', '0000-00-00', '4agama', '4hp', '4negara', 'TK', '4000', '4kps', '4usaha', '3alamat'),
-(50, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(503, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(504, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(505, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(506, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(507, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(508, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(509, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(510, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(511, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(512, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(513, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(514, '5nama', '5pekerjaan', '5tempat_l', '0000-00-00', '4agama', '5hp', '5negara', 'TK', '5000', '5kps', '5usaha', '5alamat'),
-(515, '', '55', '', '1970-01-01', '', '', '', 'TK', '3000', '', '', ''),
-(516, '', '5', '', '0000-00-00', '', '', '', 'TK', '5000', '', '', ''),
-(517, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
-(518, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
+(1, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(2, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(3, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(4, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(5, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', ''),
+(6, '', '5', '', '1970-01-01', '', '', '', 'TK', '1000', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -477,15 +439,20 @@ CREATE TABLE `guru` (
   `id` int(11) NOT NULL,
   `nama` varchar(64) NOT NULL,
   `pel` varchar(32) NOT NULL,
-  `foto` varchar(64) NOT NULL
+  `foto` varchar(64) NOT NULL,
+  `u` varchar(16) NOT NULL,
+  `p` varchar(60) NOT NULL,
+  `bio` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `guru`
 --
 
-INSERT INTO `guru` (`id`, `nama`, `pel`, `foto`) VALUES
-(12, 'Rusman Wahab', 'Tidur --', 'a44bb0b34e80cba7a8812634107573e4.png');
+INSERT INTO `guru` (`id`, `nama`, `pel`, `foto`, `u`, `p`, `bio`) VALUES
+(13, '500', 'asal', '4107970fe0cba13df146f6829d4ce2cf.png', 'gg', '', ''),
+(14, 'mongod', 'mongod', 'dffa0620579598a834015d2400a4ec28.png', '', '', ''),
+(15, 'baru', 'gg', '047681daab946a6559d46d7891bf12b1.png', '', '', 'panjang sekali ggggggg gggggggggg gggggggpanjang sekali ggggggg gggggggggg gggggggpanjang sekali ggggggg gggggggggg gggggggpanjang sekali ggggggg gggggggggg gggggggpanjang sekali ggggggg gggggggggg gggggggpanjang sekali ggggggg gggggggggg gggggggpanjang se');
 
 --
 -- Indexes for dumped tables
@@ -552,12 +519,12 @@ ALTER TABLE `account`
 -- AUTO_INCREMENT for table `f1`
 --
 ALTER TABLE `f1`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=519;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `guru`
 --
 ALTER TABLE `guru`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
