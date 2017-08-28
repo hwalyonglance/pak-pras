@@ -86,12 +86,6 @@
 	</script>
 <?php } else { ?>
 	<style>
-		table td{
-			border-bottom: 1px solid blue;
-		}
-		tr>td:first-child{
-			font-weight: bold;
-		}
 		caption{
 			font-size: 35px;
 		}
@@ -109,8 +103,12 @@
 				max-height: 500px;
 			}
 		}
+		#detail.container .content .col{
+			border-bottom: 1px solid blue;
+			padding: 15px 0;
+		}
 	</style>
-	<div class="container">
+	<div class="container" id="detail">
 		<?php
 			$this->load->view('table/murid/1');
 			$this->load->view('table/murid/2');
