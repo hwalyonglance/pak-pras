@@ -20,7 +20,7 @@
 							<label for="pel" class="active">Pelajaran</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="u" type="text" name="u" class="validate" onkeyup="usernameOnKeyUp(this)">
+							<input id="u" type="text" name="u" class="validate" onkeyup="usernameOnKeyUp(this)" data-length='16' maxlength='16'>
 							<label for="u" class="active">Username</label>
 						</div>
 						<div class="input-field col s12">
@@ -32,7 +32,7 @@
 							<label for="p2" class="active">Password</label>
 						</div>
 						<div class="input-field col s12">
-							<textarea id="bio" name="bio" class="materialize-textarea"></textarea>
+							<textarea id="bio" name="bio" class="materialize-textarea" data-length="256" maxlength="256"></textarea>
 							<label for="bio">Bio</label>
 						</div>
 					</div>
@@ -141,24 +141,30 @@
 	function add(){
 		$('#nama').val('')
 		$('#pel').val('')
+		$('#u').val('')
+		$('#bio').val('')
+		$('#bio').trigger('autoresize')
 		Materialize.updateTextFields()
 		$('#fg').attr('action', '<?=base_url()?>guru/add')
 		$('#add').modal('open')
 		$('#h').text('Tambah Guru')
 		$('#preview').attr('src','<?=base_url()?>assets/img/samples/hitam.png')
-		$('#foto-err').show()
+		$('#foto-err').removeClass('hide')
 		$('#submit').attr('disabled','disabled')
 	}
 	function edit(guru){
 		$('[name="id"]').val(guru.id)
 		$('#nama').val(guru.nama)
 		$('#pel').val(guru.pel)
+		$('#u').val(guru.u)
+		$('#bio').val(guru.bio)
+		$('#bio').trigger('autoresize')
 		Materialize.updateTextFields()
 		$('#fg').attr('action', '<?=base_url()?>guru/update')
 		$('#add').modal('open')
 		$('#h').text('Edit Guru')
 		$('#preview').attr('src','<?=base_url()?>uploads/guru/'+guru.foto)
-		$('#foto-err').hide()
+		$('#foto-err').addClass('hide')
 		$('#submit').attr('disabled',null)
 	}
 	function drop(guru){

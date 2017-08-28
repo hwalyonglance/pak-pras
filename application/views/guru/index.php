@@ -10,6 +10,9 @@
 	.gdmw{
 		width: 300px !important;
 	}
+	table tr td:first-of-type{
+		font-weight: bold;
+	}
 </style>
 <div class="container">
 	<div class="row">
@@ -46,6 +49,10 @@
 							<tr>
 								<td>Pelajaran</td>
 								<td>: <?=$data['teachers'][$i]['pel']?></td>
+							</tr>
+							<tr>
+								<td>Bio</td>
+								<td>: <?=$data['teachers'][$i]['bio']?></td>
 							</tr>
 						</table>
 					</div>

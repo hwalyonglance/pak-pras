@@ -27,6 +27,7 @@ class Guru extends CI_Controller {
 			echo "</pre>";
 		}else{
 			$_POST['foto'] = $this->upload->data()['file_name'];
+			$_POST['p'] = password_hash($_POST['p'], PASSWORD_BCRYPT);
 			$this->M_Guru->add($_POST);
 		}
 	}
