@@ -48,6 +48,11 @@ class Guru extends CI_Controller {
 	function delete(){
 		$this->M_Guru->delete($_POST['guru_id']);
 	}
+	function u(){
+		$this->output->set_content_type('application/json')->set_output(json_encode(
+			count($this->db->select('u')->where('u',$_POST['u'])->get('guru')->result_array())
+		));
+	}
 }
 
 /* End of file Guru.php */

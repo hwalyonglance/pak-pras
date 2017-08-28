@@ -1,9 +1,38 @@
+<style>
+	.small{
+		font-size:  10px;
+	}
+</style>
 <!-- FORM ADD || UPDATE -->
 <?=form_open_multipart('guru/add',['id'=>'fg'],['id'=>null])?>
 	<div id="add" class="modal">
 		<div class="modal-content">
 			<h4 id="h"></h4>
 			<div class="row">
+				<div class="col s6">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="nama" type="text" name="nama" class="validate">
+							<label for="nama" class="active">Nama</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="pel" type="text" name="pel" class="validate">
+							<label for="pel" class="active">Pelajaran</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="u" type="text" name="u" class="validate" onkeyup="onKeyUp(this)">
+							<label for="u" class="active">Username</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="p" type="text" name="p" class="validate">
+							<label for="p" class="active">Password</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="p2" type="text" name="p2" class="validate">
+							<label for="p2" class="active">Password</label>
+						</div>
+					</div>
+				</div>
 				<div class="col s6">
 					<div class="row">
 						<div class="file-field input-field col s12">
@@ -18,19 +47,10 @@
 								Tolong unggah foto!
 							</div>
 						</div>
-						<div class="input-field col s12">
-							<input id="nama" type="text" name="nama" class="validate">
-							<label for="nama" class="active">Nama</label>
+						<div class="col s12">
+							<img src="<?=base_url()?>assets/img/samples/hitam.png" id='preview' style='max-width: 300px; max-height: 300px'>
 						</div>
-						<div class="input-field col s12">
-							<input id="pel" type="text" name="pel" class="validate">
-							<label for="pel" class="active">Pelajaran</label>
-						</div>
-						<div class="col obj"></div>
 					</div>
-				</div>
-				<div class="col s6">
-					<img src="<?=base_url()?>assets/img/samples/hitam.png" id='preview' style='max-width: 100%;'>
 				</div>
 			</div>
 			<div class="row">
@@ -77,6 +97,25 @@
 		}
 		$('#submit').attr('disabled',null)
 		$('#foto-err').hide()
+	}
+	function onKeyUp($this){
+		if ($this.value !== '') {
+			$.ajax({
+				url: '<?=base_url()?>guru/u',
+				type: 'POST',
+				dataType: 'json',
+				data: {u: $this.value},
+				success:function(c){
+					if (c === 1) {
+						$('[for="u"]').text('Username Sudah Dipakai')
+						$('#u').addClass('invalid')
+					}else{
+						$('[for="u"]').text('Username Tersedia')
+						$('#u').removeClass('invalid')
+					}
+				}
+			})
+		}
 	}
 	function add(){
 		$('#nama').val('')
