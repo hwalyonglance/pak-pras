@@ -99,6 +99,10 @@
 				max-height: 500px;
 			}
 		}
+		#detail .row{
+			border-bottom: 1px solid blue !important;
+			padding-bottom: 15px;
+		}
 	</style>
 	<div class="container" id="detail">
 		<?php
