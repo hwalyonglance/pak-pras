@@ -1,10 +1,6 @@
 <?php
 	if (isset($_SERVER['HTTP_REFERER'])) {
 		if ( $this->session->userdata('is_role_0_logged_in') ) {
-			$this->load->view('su/_back',['to'=>'murid']);
-			$this->session->set_flashdata([
-				'from:su/' => TRUE
-			]);
 			?>
 				<div id="edit" class="modal">
 					<div class="modal-content">
@@ -102,10 +98,6 @@
 			.img-1-foto{
 				max-height: 500px;
 			}
-		}
-		#detail.container .content .col{
-			border-bottom: 1px solid blue;
-			padding: 15px 0;
 		}
 	</style>
 	<div class="container" id="detail">

@@ -26,7 +26,7 @@ class Su extends CI_Controller {
 			if ($type_or_id === '') {
 				$data = [
 					'display' => 'list',
-					'murid' => $this->db->select('id,nama,ijazah,asal,nisn,skhu,jk')->order_by('id','DESC')->get('f1')->result_array()
+					'murid' => $this->db->select('id,nama,asal,jk,created_at')->order_by('id','DESC')->get('f1')->result_array()
 				];
 			} else if ( ((int) $type_or_id) > 0 ) {
 				$data = [
