@@ -1,5 +1,5 @@
 <?php $this->load->view('_atas');?>
-<?=form_open('auth/admin')?>
+<?=form_open('auth/su')?>
 	<div class="row">
 		<div class="col s6 m6 l4 xl4 push-s3 push-m3 push-l4 push-xl4">
 			<div class="card blue-grey darken-3">

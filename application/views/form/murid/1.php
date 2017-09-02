@@ -11,7 +11,7 @@
 				</div>
 				<?php if( in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ){ ?>
 					<div class="red-text" id="foto-err">
-						Tolong unggah foto! <?=$_SERVER['PATH_INFO']?>
+						Tolong unggah foto!
 					</div>
 				<?php } ?>
 			</div>

@@ -11,7 +11,10 @@
 	<script src="<?=base_url()?>assets/tinymce/tinymce.min.js"></script>
 	<style>
 		body{
-			padding: 64px 0;
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+			padding-top: 128px;
 		}
 		footer{
 			margin-top: 64px;

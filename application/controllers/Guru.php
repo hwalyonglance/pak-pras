@@ -18,6 +18,7 @@ class Guru extends CI_Controller {
 				'teachers' => $this->M_Guru->gets()
 			]
 		]);
+		$this->load->view('_footer');
 	}
 	function add(){
 		if ( ! $this->upload->do_upload('foto')){

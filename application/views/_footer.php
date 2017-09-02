@@ -1,3 +1,4 @@
+<div style="flex: 1 1 auto"></div>
 <footer class="page-footer deep-purple darken-2">
 	<div class="container">
 		<div class="row">

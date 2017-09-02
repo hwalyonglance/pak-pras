@@ -46,6 +46,24 @@
 			padding-right: 10px;
 		}
 	</style>
+	<div class="container">
+		<div class="row">
+			<div class="input-field col s2">
+				<select id="periode">
+					<option>2014/2015</option>
+					<option>2015/2016</option>
+					<option>2016/2017</option>
+					<option selected="">2017/2018</option>
+				</select>
+				<label>Periode</label>
+			</div>
+			<div class="col s2">
+				<button class="btn" id="cetak" style="margin-top: 25px">
+					Cetak <i class="material-icons">print</i>
+				</button>
+			</div>
+		</div>
+	</div>
 	<table class="bordered striped highlight responsive-table container">
 		<tr>
 			<th>#No</th>
@@ -78,6 +96,10 @@
 	<script>
 		$(document).ready(function(){
 			$('.tooltipped').tooltip()
+			$('select').material_select()
+			$('#cetak').click(function(event) {
+				location = '<?=base_url()?>pdf/murid/' + $('#periode').val()
+			});
 		});
 	</script>
 <?php } else { ?>

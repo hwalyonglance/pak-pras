@@ -49,32 +49,34 @@
 		}
 	}
 </style>
-<div class="purple lighten-4 <?=in_array(substr($_SERVER['PATH_INFO'], 0, 11), ['/murid/edit','/su/murid/c', '/murid/daft']) ? 'container' : ''?>">
-	<?=form_open_multipart( ($data['murid'] === NULL ? 'murid/add' : 'murid/update') , [], ['1[id]'=>$data['murid'][1]['id']])?>
-		<ul class="collapsible popout" data-collapsible="accordion">
-			<li>
-				<div class="collapsible-header a1 active">Data Pribadi Siswa/i</div>
-				<div class="collapsible-body"><?php $this->load->view('form/murid/1');?></div>
-			</li>
-			<li>
-				<div class="collapsible-header a2 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Keterangan Siswa/i</div>
-				<div class="collapsible-body"><?php $this->load->view('form/murid/2');?></div>
-			</li>
-			<li>
-				<div class="collapsible-header a3 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ayah</div>
-				<div class="collapsible-body"><?php $this->load->view('form/murid/3');?></div>
-			</li>
-			<li>
-				<div class="collapsible-header a4 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ibu</div>
-				<div class="collapsible-body"><?php $this->load->view('form/murid/4');?></div>
-			</li>
-			<li>
-				<div class="collapsible-header a5 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Wali</div>
-				<div class="collapsible-body"><?php $this->load->view('form/murid/5');?></div>
-			</li>
-		</ul>
-	</form>
-</div>
+<main>
+	<div class="purple lighten-4 <?=in_array(substr($_SERVER['PATH_INFO'], 0, 11), ['/murid/edit','/su/murid/c', '/murid/daft']) ? 'container' : ''?>">
+		<?=form_open_multipart( ($data['murid'] === NULL ? 'murid/add' : 'murid/update') , [], ['1[id]'=>$data['murid'][1]['id']])?>
+			<ul class="collapsible popout" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header a1 active">Data Pribadi Siswa/i</div>
+					<div class="collapsible-body"><?php $this->load->view('form/murid/1');?></div>
+				</li>
+				<li>
+					<div class="collapsible-header a2 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Keterangan Siswa/i</div>
+					<div class="collapsible-body"><?php $this->load->view('form/murid/2');?></div>
+				</li>
+				<li>
+					<div class="collapsible-header a3 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ayah</div>
+					<div class="collapsible-body"><?php $this->load->view('form/murid/3');?></div>
+				</li>
+				<li>
+					<div class="collapsible-header a4 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Ibu</div>
+					<div class="collapsible-body"><?php $this->load->view('form/murid/4');?></div>
+				</li>
+				<li>
+					<div class="collapsible-header a5 <?= in_array($_SERVER['PATH_INFO'], ['/su/murid','/murid/daftar']) ? 'hide' : '' ?>">Data Wali</div>
+					<div class="collapsible-body"><?php $this->load->view('form/murid/5');?></div>
+				</li>
+			</ul>
+		</form>
+	</div>
+</main>
 <script>
 	function loadImageFileAsUrl($this) {
 		let fileSelected = $this.files;

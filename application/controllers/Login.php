@@ -3,11 +3,14 @@ class Login extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 	}
-	public function index(){
+	function index(){
 		
 	}
-	public function admin(){
-		$this->load->view('form/login/admin');
+	function su(){
+		$this->load->view('form/login/su');
+	}
+	function guru(){
+		$this->load->view('form/login/guru');
 	}
 }
 

@@ -1,4 +1,4 @@
-<nav class="deep-purple darken-4" style="position: fixed; bottom: 0;z-index: 1000;padding: 0px 10%">
+<nav class="deep-purple darken-4" style="position: fixed; top: 0;z-index: 1000;padding: 0px 10%">
     <div class="nav-wrapper">
 		<a href="<?=base_url()?>" class="brand-logo">Logo</a>
 		<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>

@@ -16,7 +16,7 @@
 		font-size: 25px;
 	}
 </style>
-<div class="container">
+<div class="container" style="padding-top: 64px">
 	<div class="row center">
 		<div class="col s6 m6 l3 xl3">
 			<div class="title">Calon Murid</div>

@@ -5,6 +5,8 @@ class Pdf extends CI_Controller {
 		if (!$this->session->userdata('is_role_0_logged_in')) {
 			redirect('login/admin');
 		}
+		$this->load->library('zip');
+		$this->zip->compression_level = 9;
 		$this->load->model('M_Murid');
 		require_once APPPATH.'/third_party/mpdf/mpdf.php';
 		$this->pdf =  new mPDF("en-GB-x", "A4", "", "", 10,10,10,10, "6", "3", "P");
@@ -28,12 +30,15 @@ class Pdf extends CI_Controller {
 				$this->create([
 					'data' => [
 						'display' => 'detail',
-						'murid' => $this->M_Murid->get($value['id'])
+						'murid' => $this->M_Murid->get($value['id']),
+						'show' => TRUE
 					],
 				], $i, $from_or_id, $to, $value['nama'], $value['asal']);
 				$i++;
 			}
-			redirect('reports/murid/'.$from_or_id.'-'.$to);
+			$this->zip->read_dir('reports/murid/'.$from_or_id.'-'.$to, FALSE);
+			echo 'reports/murid/'.$from_or_id.'-'.$to;
+			$this->zip->download('report_murid_'.$from_or_id.'_'.$to.'.zip');
 		}
 	}
 	private function create($data, $i, $from, $to, $nama, $asal){

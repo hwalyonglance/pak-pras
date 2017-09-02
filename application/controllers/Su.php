@@ -3,7 +3,7 @@ class Su extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		if (!$this->session->userdata('is_role_0_logged_in')) {
-			redirect('login/admin');
+			redirect('login/su');
 		}
 		$this->load->model('M_Su');
 		$this->load->model('M_Murid');
