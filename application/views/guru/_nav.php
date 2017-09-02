@@ -4,21 +4,12 @@
 		<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
 			<li><a href="<?=base_url()?>">Home</a></li>
-			<li><a href="#" class='dropdown-button' data-activates='pendaftaran' data-beloworigin='true'>Pendaftaran</a></li>
-			<li><a href="<?=base_url()?>daftar/calon_murid">Murid</a></li>
-			<li><a href="<?=base_url()?>daftar/guru">Guru</a></li>
-			<li><a href="<?=base_url()?>daftar/staf">Staf</a></li>
-			<li><a href="<?=base_url()?>post">Posts</a></li>
-			<li><a href="<?=base_url()?>about">About</a></li>
+			<li><a href="<?=base_url()?>guru/add_post">Posts</a></li>
+			<li><a href="<?=base_url()?>guru/logout">Logout</a></li>
 		</ul>
 		<ul class="side-nav" id="mobile-demo"></ul>
     </div>
 </nav>
-<ul id="pendaftaran" class="dropdown-content">
-	<li><a href="pendaftaran/murid">Murid</a></li>
-	<li><a href="pendaftaran/guru">Guru</a></li>
-	<li><a href="pendaftaran/staf">Staf</a></li>
-</ul>
 <script>
 	$(document).ready(function() {
 		$('#mobile-demo').html($('#nav-mobile').html());

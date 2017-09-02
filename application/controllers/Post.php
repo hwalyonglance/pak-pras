@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
-class Kegiatan extends CI_Controller {
+class Post extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('M_Murid');
@@ -18,7 +18,9 @@ class Kegiatan extends CI_Controller {
 		// redirect('reports/murid/Doni.pdf');
 		$this->load->view('Kegiatan/index');		
 	}
-
+	function add(){
+		
+	}
 }
 
 /* End of file Kegiatan.php */

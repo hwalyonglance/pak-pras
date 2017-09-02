@@ -13,12 +13,18 @@ class Guru extends CI_Controller {
 		]);
 	}
 	function index(){
-		$this->load->view('guru/index', [
+		$this->load->view('_atas');
+		$this->load->view('guru/_nav');
+	}
+	function add_post(){
+		$this->load->view('_atas');
+		$this->load->view('guru/_nav');
+		$this->load->view('form/kegiatan/index', [
 			'data' => [
-				'teachers' => $this->M_Guru->gets()
+				'id' => $this->session->userdata('role_1_id'),
+				'from' => 'guru'
 			]
 		]);
-		$this->load->view('_footer');
 	}
 	function add(){
 		if ( ! $this->upload->do_upload('foto')){
@@ -42,7 +48,7 @@ class Guru extends CI_Controller {
 				echo "</pre>";
 			}else{
 				$data['foto'] = $this->upload->data()['file_name'];
-				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$data['id'])->get('guru')->result_array()[0]['foto']);
+				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$data['id'])->get('teachers')->result_array()[0]['foto']);
 			}
 		}
 		$this->M_Guru->update($data);
@@ -52,7 +58,7 @@ class Guru extends CI_Controller {
 	}
 	function u(){
 		$this->output->set_content_type('application/json')->set_output(json_encode(
-			count($this->db->select('u')->where('u',$_POST['u'])->get('guru')->result_array())
+			count($this->db->select('u')->where('u',$_POST['u'])->get('teachers')->result_array())
 		));
 	}
 }
