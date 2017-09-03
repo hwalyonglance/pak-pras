@@ -16,10 +16,17 @@ class Guru extends CI_Controller {
 		$this->load->view('_atas');
 		$this->load->view('guru/_nav');
 	}
+	function logout(){
+		$this->session->set_userdata([
+			'role_1_id' => NULL,
+			'is_role_1_logged_in' => NULL
+		]);
+		redirect('');
+	}
 	function add_post(){
 		$this->load->view('_atas');
 		$this->load->view('guru/_nav');
-		$this->load->view('form/kegiatan/index', [
+		$this->load->view('form/post/index', [
 			'data' => [
 				'id' => $this->session->userdata('role_1_id'),
 				'from' => 'guru'

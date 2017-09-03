@@ -14,7 +14,7 @@
 			display: flex;
 			min-height: 100vh;
 			flex-direction: column;
-			padding-top: 128px;
+			padding-top: 64px;
 		}
 		footer{
 			margin-top: 64px;
@@ -42,4 +42,4 @@
 		}
 	</style>
 </head>
-<body class="purple lighten-5">
+<body>
