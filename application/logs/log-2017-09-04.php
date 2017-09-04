@@ -5495,3 +5495,454 @@ INFO - 2017-09-04 17:42:30 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\
 INFO - 2017-09-04 17:42:30 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
 INFO - 2017-09-04 17:42:30 --> Final output sent to browser
 DEBUG - 2017-09-04 17:42:30 --> Total execution time: 0.8753
+INFO - 2017-09-04 17:54:07 --> Config Class Initialized
+INFO - 2017-09-04 17:54:07 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:54:07 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:54:07 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:54:07 --> URI Class Initialized
+INFO - 2017-09-04 17:54:07 --> Router Class Initialized
+INFO - 2017-09-04 17:54:07 --> Output Class Initialized
+INFO - 2017-09-04 17:54:07 --> Security Class Initialized
+DEBUG - 2017-09-04 17:54:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:54:07 --> CSRF cookie sent
+INFO - 2017-09-04 17:54:07 --> Input Class Initialized
+INFO - 2017-09-04 17:54:07 --> Language Class Initialized
+INFO - 2017-09-04 17:54:07 --> Loader Class Initialized
+INFO - 2017-09-04 17:54:07 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:54:08 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:54:08 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:54:08 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:54:08 --> Controller Class Initialized
+INFO - 2017-09-04 17:54:08 --> Model Class Initialized
+INFO - 2017-09-04 17:54:09 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:54:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 17:54:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 17:54:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 17:54:11 --> Final output sent to browser
+DEBUG - 2017-09-04 17:54:11 --> Total execution time: 3.6077
+INFO - 2017-09-04 17:56:09 --> Config Class Initialized
+INFO - 2017-09-04 17:56:09 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:56:09 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:56:09 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:56:10 --> URI Class Initialized
+INFO - 2017-09-04 17:56:10 --> Router Class Initialized
+INFO - 2017-09-04 17:56:10 --> Output Class Initialized
+INFO - 2017-09-04 17:56:10 --> Security Class Initialized
+DEBUG - 2017-09-04 17:56:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:56:10 --> CSRF cookie sent
+INFO - 2017-09-04 17:56:10 --> Input Class Initialized
+INFO - 2017-09-04 17:56:10 --> Language Class Initialized
+ERROR - 2017-09-04 17:56:10 --> 404 Page Not Found: Posts/ini-buatan-ggh
+INFO - 2017-09-04 17:56:11 --> Config Class Initialized
+INFO - 2017-09-04 17:56:11 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:56:11 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:56:11 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:56:11 --> URI Class Initialized
+INFO - 2017-09-04 17:56:11 --> Router Class Initialized
+INFO - 2017-09-04 17:56:11 --> Output Class Initialized
+INFO - 2017-09-04 17:56:11 --> Security Class Initialized
+DEBUG - 2017-09-04 17:56:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:56:11 --> CSRF cookie sent
+INFO - 2017-09-04 17:56:11 --> Input Class Initialized
+INFO - 2017-09-04 17:56:11 --> Language Class Initialized
+INFO - 2017-09-04 17:56:11 --> Loader Class Initialized
+INFO - 2017-09-04 17:56:11 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:56:11 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:56:11 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:56:11 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:56:12 --> Controller Class Initialized
+INFO - 2017-09-04 17:56:12 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:56:12 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\guru/_nav.php
+INFO - 2017-09-04 17:56:12 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/post/index.php
+INFO - 2017-09-04 17:56:12 --> Final output sent to browser
+DEBUG - 2017-09-04 17:56:12 --> Total execution time: 0.6105
+INFO - 2017-09-04 17:56:13 --> Config Class Initialized
+INFO - 2017-09-04 17:56:13 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:56:13 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:56:13 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:56:13 --> URI Class Initialized
+INFO - 2017-09-04 17:56:13 --> Router Class Initialized
+INFO - 2017-09-04 17:56:13 --> Output Class Initialized
+INFO - 2017-09-04 17:56:13 --> Security Class Initialized
+DEBUG - 2017-09-04 17:56:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:56:13 --> CSRF cookie sent
+INFO - 2017-09-04 17:56:13 --> Input Class Initialized
+INFO - 2017-09-04 17:56:13 --> Language Class Initialized
+ERROR - 2017-09-04 17:56:13 --> 404 Page Not Found: Guru/images
+INFO - 2017-09-04 17:56:23 --> Config Class Initialized
+INFO - 2017-09-04 17:56:23 --> Config Class Initialized
+INFO - 2017-09-04 17:56:23 --> Hooks Class Initialized
+INFO - 2017-09-04 17:56:23 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:56:23 --> UTF-8 Support Enabled
+DEBUG - 2017-09-04 17:56:23 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:56:23 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:56:23 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:56:23 --> URI Class Initialized
+INFO - 2017-09-04 17:56:23 --> URI Class Initialized
+INFO - 2017-09-04 17:56:23 --> Router Class Initialized
+INFO - 2017-09-04 17:56:23 --> Router Class Initialized
+INFO - 2017-09-04 17:56:23 --> Output Class Initialized
+INFO - 2017-09-04 17:56:23 --> Output Class Initialized
+INFO - 2017-09-04 17:56:23 --> Security Class Initialized
+INFO - 2017-09-04 17:56:23 --> Security Class Initialized
+DEBUG - 2017-09-04 17:56:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-09-04 17:56:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:56:23 --> CSRF cookie sent
+INFO - 2017-09-04 17:56:23 --> CSRF cookie sent
+INFO - 2017-09-04 17:56:23 --> Input Class Initialized
+INFO - 2017-09-04 17:56:23 --> CSRF token verified
+INFO - 2017-09-04 17:56:23 --> Input Class Initialized
+INFO - 2017-09-04 17:56:23 --> Language Class Initialized
+INFO - 2017-09-04 17:56:23 --> Language Class Initialized
+ERROR - 2017-09-04 17:56:23 --> 404 Page Not Found: Guru/images
+INFO - 2017-09-04 17:56:23 --> Loader Class Initialized
+INFO - 2017-09-04 17:56:23 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:56:23 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:56:23 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:56:24 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:56:24 --> Controller Class Initialized
+INFO - 2017-09-04 17:56:24 --> Model Class Initialized
+INFO - 2017-09-04 17:56:24 --> Final output sent to browser
+DEBUG - 2017-09-04 17:56:24 --> Total execution time: 0.7818
+INFO - 2017-09-04 17:57:06 --> Config Class Initialized
+INFO - 2017-09-04 17:57:06 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:57:06 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:57:06 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:57:06 --> URI Class Initialized
+INFO - 2017-09-04 17:57:06 --> Router Class Initialized
+INFO - 2017-09-04 17:57:06 --> Output Class Initialized
+INFO - 2017-09-04 17:57:06 --> Security Class Initialized
+DEBUG - 2017-09-04 17:57:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:57:06 --> CSRF cookie sent
+INFO - 2017-09-04 17:57:06 --> Input Class Initialized
+INFO - 2017-09-04 17:57:06 --> Language Class Initialized
+INFO - 2017-09-04 17:57:06 --> Loader Class Initialized
+INFO - 2017-09-04 17:57:06 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:57:06 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:57:07 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:57:07 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:57:07 --> Controller Class Initialized
+INFO - 2017-09-04 17:57:07 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:57:07 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\guru/_nav.php
+INFO - 2017-09-04 17:57:07 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/post/index.php
+INFO - 2017-09-04 17:57:07 --> Final output sent to browser
+DEBUG - 2017-09-04 17:57:07 --> Total execution time: 0.5831
+INFO - 2017-09-04 17:57:08 --> Config Class Initialized
+INFO - 2017-09-04 17:57:08 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:57:08 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:57:08 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:57:08 --> URI Class Initialized
+INFO - 2017-09-04 17:57:08 --> Router Class Initialized
+INFO - 2017-09-04 17:57:08 --> Output Class Initialized
+INFO - 2017-09-04 17:57:08 --> Security Class Initialized
+DEBUG - 2017-09-04 17:57:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:57:08 --> CSRF cookie sent
+INFO - 2017-09-04 17:57:08 --> Input Class Initialized
+INFO - 2017-09-04 17:57:08 --> Language Class Initialized
+ERROR - 2017-09-04 17:57:08 --> 404 Page Not Found: Guru/images
+INFO - 2017-09-04 17:57:22 --> Config Class Initialized
+INFO - 2017-09-04 17:57:22 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:57:22 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:57:22 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:57:22 --> URI Class Initialized
+INFO - 2017-09-04 17:57:22 --> Router Class Initialized
+INFO - 2017-09-04 17:57:22 --> Output Class Initialized
+INFO - 2017-09-04 17:57:22 --> Security Class Initialized
+DEBUG - 2017-09-04 17:57:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:57:22 --> CSRF cookie sent
+INFO - 2017-09-04 17:57:22 --> CSRF token verified
+INFO - 2017-09-04 17:57:22 --> Input Class Initialized
+INFO - 2017-09-04 17:57:22 --> Language Class Initialized
+INFO - 2017-09-04 17:57:22 --> Loader Class Initialized
+INFO - 2017-09-04 17:57:22 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:57:22 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:57:22 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:57:22 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:57:22 --> Controller Class Initialized
+INFO - 2017-09-04 17:57:22 --> Model Class Initialized
+INFO - 2017-09-04 17:57:23 --> Config Class Initialized
+INFO - 2017-09-04 17:57:23 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:57:23 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:57:23 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:57:23 --> URI Class Initialized
+INFO - 2017-09-04 17:57:23 --> Router Class Initialized
+INFO - 2017-09-04 17:57:23 --> Output Class Initialized
+INFO - 2017-09-04 17:57:23 --> Security Class Initialized
+DEBUG - 2017-09-04 17:57:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:57:23 --> CSRF cookie sent
+INFO - 2017-09-04 17:57:23 --> Input Class Initialized
+INFO - 2017-09-04 17:57:23 --> Language Class Initialized
+INFO - 2017-09-04 17:57:23 --> Loader Class Initialized
+INFO - 2017-09-04 17:57:23 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:57:23 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:57:23 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:57:23 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:57:23 --> Controller Class Initialized
+INFO - 2017-09-04 17:57:23 --> Model Class Initialized
+INFO - 2017-09-04 17:57:23 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:57:23 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 17:57:24 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 17:57:24 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 17:57:24 --> Final output sent to browser
+DEBUG - 2017-09-04 17:57:24 --> Total execution time: 0.7738
+INFO - 2017-09-04 17:57:56 --> Config Class Initialized
+INFO - 2017-09-04 17:57:56 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:57:56 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:57:56 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:57:56 --> URI Class Initialized
+INFO - 2017-09-04 17:57:56 --> Router Class Initialized
+INFO - 2017-09-04 17:57:57 --> Output Class Initialized
+INFO - 2017-09-04 17:57:57 --> Security Class Initialized
+DEBUG - 2017-09-04 17:57:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:57:57 --> CSRF cookie sent
+INFO - 2017-09-04 17:57:57 --> Input Class Initialized
+INFO - 2017-09-04 17:57:57 --> Language Class Initialized
+INFO - 2017-09-04 17:57:57 --> Loader Class Initialized
+INFO - 2017-09-04 17:57:57 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:57:57 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:57:57 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:57:57 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:57:57 --> Controller Class Initialized
+INFO - 2017-09-04 17:57:57 --> Model Class Initialized
+INFO - 2017-09-04 17:57:57 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:57:57 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 17:57:57 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 17:57:57 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 17:57:57 --> Final output sent to browser
+DEBUG - 2017-09-04 17:57:57 --> Total execution time: 0.7848
+INFO - 2017-09-04 17:59:03 --> Config Class Initialized
+INFO - 2017-09-04 17:59:03 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:59:03 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:59:03 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:59:03 --> URI Class Initialized
+INFO - 2017-09-04 17:59:03 --> Router Class Initialized
+INFO - 2017-09-04 17:59:04 --> Output Class Initialized
+INFO - 2017-09-04 17:59:04 --> Security Class Initialized
+DEBUG - 2017-09-04 17:59:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:59:04 --> CSRF cookie sent
+INFO - 2017-09-04 17:59:04 --> Input Class Initialized
+INFO - 2017-09-04 17:59:04 --> Language Class Initialized
+INFO - 2017-09-04 17:59:04 --> Loader Class Initialized
+INFO - 2017-09-04 17:59:04 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:59:04 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:59:04 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:59:04 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:59:04 --> Controller Class Initialized
+INFO - 2017-09-04 17:59:04 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:59:04 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\guru/_nav.php
+INFO - 2017-09-04 17:59:04 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/post/index.php
+INFO - 2017-09-04 17:59:04 --> Final output sent to browser
+DEBUG - 2017-09-04 17:59:04 --> Total execution time: 0.5738
+INFO - 2017-09-04 17:59:24 --> Config Class Initialized
+INFO - 2017-09-04 17:59:24 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:59:24 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:59:24 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:59:24 --> URI Class Initialized
+INFO - 2017-09-04 17:59:24 --> Router Class Initialized
+INFO - 2017-09-04 17:59:24 --> Output Class Initialized
+INFO - 2017-09-04 17:59:24 --> Security Class Initialized
+DEBUG - 2017-09-04 17:59:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:59:24 --> CSRF cookie sent
+INFO - 2017-09-04 17:59:24 --> CSRF token verified
+INFO - 2017-09-04 17:59:24 --> Input Class Initialized
+INFO - 2017-09-04 17:59:25 --> Language Class Initialized
+INFO - 2017-09-04 17:59:25 --> Loader Class Initialized
+INFO - 2017-09-04 17:59:25 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:59:25 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:59:25 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:59:25 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:59:25 --> Controller Class Initialized
+INFO - 2017-09-04 17:59:25 --> Model Class Initialized
+INFO - 2017-09-04 17:59:25 --> Config Class Initialized
+INFO - 2017-09-04 17:59:25 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:59:25 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:59:25 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:59:25 --> URI Class Initialized
+INFO - 2017-09-04 17:59:25 --> Router Class Initialized
+INFO - 2017-09-04 17:59:25 --> Output Class Initialized
+INFO - 2017-09-04 17:59:25 --> Security Class Initialized
+DEBUG - 2017-09-04 17:59:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:59:25 --> CSRF cookie sent
+INFO - 2017-09-04 17:59:25 --> Input Class Initialized
+INFO - 2017-09-04 17:59:25 --> Language Class Initialized
+INFO - 2017-09-04 17:59:26 --> Loader Class Initialized
+INFO - 2017-09-04 17:59:26 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:59:26 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:59:26 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:59:26 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:59:26 --> Controller Class Initialized
+INFO - 2017-09-04 17:59:26 --> Model Class Initialized
+INFO - 2017-09-04 17:59:26 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:59:26 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 17:59:26 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 17:59:26 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 17:59:26 --> Final output sent to browser
+DEBUG - 2017-09-04 17:59:26 --> Total execution time: 0.8388
+INFO - 2017-09-04 17:59:41 --> Config Class Initialized
+INFO - 2017-09-04 17:59:41 --> Hooks Class Initialized
+DEBUG - 2017-09-04 17:59:41 --> UTF-8 Support Enabled
+INFO - 2017-09-04 17:59:41 --> Utf8 Class Initialized
+INFO - 2017-09-04 17:59:41 --> URI Class Initialized
+INFO - 2017-09-04 17:59:41 --> Router Class Initialized
+INFO - 2017-09-04 17:59:41 --> Output Class Initialized
+INFO - 2017-09-04 17:59:41 --> Security Class Initialized
+DEBUG - 2017-09-04 17:59:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 17:59:41 --> CSRF cookie sent
+INFO - 2017-09-04 17:59:41 --> Input Class Initialized
+INFO - 2017-09-04 17:59:41 --> Language Class Initialized
+INFO - 2017-09-04 17:59:41 --> Loader Class Initialized
+INFO - 2017-09-04 17:59:41 --> Helper loaded: url_helper
+INFO - 2017-09-04 17:59:41 --> Helper loaded: form_helper
+INFO - 2017-09-04 17:59:41 --> Database Driver Class Initialized
+INFO - 2017-09-04 17:59:41 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 17:59:41 --> Controller Class Initialized
+INFO - 2017-09-04 17:59:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 17:59:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\guru/_nav.php
+INFO - 2017-09-04 17:59:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/post/index.php
+INFO - 2017-09-04 17:59:42 --> Final output sent to browser
+DEBUG - 2017-09-04 17:59:42 --> Total execution time: 0.5763
+INFO - 2017-09-04 18:00:30 --> Config Class Initialized
+INFO - 2017-09-04 18:00:30 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:00:30 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:00:30 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:00:30 --> URI Class Initialized
+INFO - 2017-09-04 18:00:30 --> Router Class Initialized
+INFO - 2017-09-04 18:00:30 --> Output Class Initialized
+INFO - 2017-09-04 18:00:31 --> Security Class Initialized
+DEBUG - 2017-09-04 18:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:00:31 --> CSRF cookie sent
+INFO - 2017-09-04 18:00:31 --> CSRF token verified
+INFO - 2017-09-04 18:00:31 --> Input Class Initialized
+INFO - 2017-09-04 18:00:31 --> Language Class Initialized
+INFO - 2017-09-04 18:00:31 --> Loader Class Initialized
+INFO - 2017-09-04 18:00:31 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:00:31 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:00:31 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:00:31 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:00:31 --> Controller Class Initialized
+INFO - 2017-09-04 18:00:31 --> Model Class Initialized
+INFO - 2017-09-04 18:00:31 --> Config Class Initialized
+INFO - 2017-09-04 18:00:31 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:00:31 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:00:31 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:00:31 --> URI Class Initialized
+INFO - 2017-09-04 18:00:31 --> Router Class Initialized
+INFO - 2017-09-04 18:00:31 --> Output Class Initialized
+INFO - 2017-09-04 18:00:31 --> Security Class Initialized
+DEBUG - 2017-09-04 18:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:00:31 --> CSRF cookie sent
+INFO - 2017-09-04 18:00:32 --> Input Class Initialized
+INFO - 2017-09-04 18:00:32 --> Language Class Initialized
+INFO - 2017-09-04 18:00:32 --> Loader Class Initialized
+INFO - 2017-09-04 18:00:32 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:00:32 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:00:32 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:00:32 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:00:32 --> Controller Class Initialized
+INFO - 2017-09-04 18:00:32 --> Model Class Initialized
+INFO - 2017-09-04 18:00:32 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 18:00:32 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 18:00:32 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 18:00:32 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 18:00:32 --> Final output sent to browser
+DEBUG - 2017-09-04 18:00:32 --> Total execution time: 0.7615
+INFO - 2017-09-04 18:01:29 --> Config Class Initialized
+INFO - 2017-09-04 18:01:29 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:01:29 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:01:29 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:01:29 --> URI Class Initialized
+INFO - 2017-09-04 18:01:29 --> Router Class Initialized
+INFO - 2017-09-04 18:01:29 --> Output Class Initialized
+INFO - 2017-09-04 18:01:29 --> Security Class Initialized
+DEBUG - 2017-09-04 18:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:01:29 --> CSRF cookie sent
+INFO - 2017-09-04 18:01:29 --> Input Class Initialized
+INFO - 2017-09-04 18:01:29 --> Language Class Initialized
+INFO - 2017-09-04 18:01:29 --> Loader Class Initialized
+INFO - 2017-09-04 18:01:29 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:01:29 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:01:29 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:01:29 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:01:29 --> Controller Class Initialized
+INFO - 2017-09-04 18:01:29 --> Model Class Initialized
+INFO - 2017-09-04 18:01:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 18:01:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 18:01:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 18:01:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 18:01:29 --> Final output sent to browser
+DEBUG - 2017-09-04 18:01:29 --> Total execution time: 0.8070
+INFO - 2017-09-04 18:02:35 --> Config Class Initialized
+INFO - 2017-09-04 18:02:35 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:02:35 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:02:36 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:02:36 --> URI Class Initialized
+INFO - 2017-09-04 18:02:36 --> Router Class Initialized
+INFO - 2017-09-04 18:02:36 --> Output Class Initialized
+INFO - 2017-09-04 18:02:36 --> Security Class Initialized
+DEBUG - 2017-09-04 18:02:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:02:36 --> CSRF cookie sent
+INFO - 2017-09-04 18:02:36 --> Input Class Initialized
+INFO - 2017-09-04 18:02:36 --> Language Class Initialized
+INFO - 2017-09-04 18:02:36 --> Loader Class Initialized
+INFO - 2017-09-04 18:02:36 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:02:36 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:02:36 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:02:36 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:02:36 --> Controller Class Initialized
+INFO - 2017-09-04 18:02:36 --> Model Class Initialized
+INFO - 2017-09-04 18:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 18:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 18:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 18:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 18:02:36 --> Final output sent to browser
+DEBUG - 2017-09-04 18:02:36 --> Total execution time: 0.7926
+INFO - 2017-09-04 18:03:46 --> Config Class Initialized
+INFO - 2017-09-04 18:03:46 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:03:46 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:03:46 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:03:46 --> URI Class Initialized
+INFO - 2017-09-04 18:03:46 --> Router Class Initialized
+INFO - 2017-09-04 18:03:46 --> Output Class Initialized
+INFO - 2017-09-04 18:03:46 --> Security Class Initialized
+DEBUG - 2017-09-04 18:03:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:03:46 --> CSRF cookie sent
+INFO - 2017-09-04 18:03:46 --> Input Class Initialized
+INFO - 2017-09-04 18:03:46 --> Language Class Initialized
+INFO - 2017-09-04 18:03:46 --> Loader Class Initialized
+INFO - 2017-09-04 18:03:46 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:03:46 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:03:46 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:03:46 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:03:46 --> Controller Class Initialized
+INFO - 2017-09-04 18:03:46 --> Model Class Initialized
+INFO - 2017-09-04 18:03:46 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 18:03:46 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 18:03:46 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 18:03:46 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 18:03:46 --> Final output sent to browser
+DEBUG - 2017-09-04 18:03:46 --> Total execution time: 0.8056
+INFO - 2017-09-04 18:06:37 --> Config Class Initialized
+INFO - 2017-09-04 18:06:37 --> Hooks Class Initialized
+DEBUG - 2017-09-04 18:06:37 --> UTF-8 Support Enabled
+INFO - 2017-09-04 18:06:37 --> Utf8 Class Initialized
+INFO - 2017-09-04 18:06:37 --> URI Class Initialized
+INFO - 2017-09-04 18:06:37 --> Router Class Initialized
+INFO - 2017-09-04 18:06:37 --> Output Class Initialized
+INFO - 2017-09-04 18:06:37 --> Security Class Initialized
+DEBUG - 2017-09-04 18:06:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-04 18:06:37 --> CSRF cookie sent
+INFO - 2017-09-04 18:06:37 --> Input Class Initialized
+INFO - 2017-09-04 18:06:37 --> Language Class Initialized
+INFO - 2017-09-04 18:06:37 --> Loader Class Initialized
+INFO - 2017-09-04 18:06:38 --> Helper loaded: url_helper
+INFO - 2017-09-04 18:06:38 --> Helper loaded: form_helper
+INFO - 2017-09-04 18:06:38 --> Database Driver Class Initialized
+INFO - 2017-09-04 18:06:38 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-04 18:06:38 --> Controller Class Initialized
+INFO - 2017-09-04 18:06:38 --> Model Class Initialized
+INFO - 2017-09-04 18:06:38 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-04 18:06:38 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-04 18:06:38 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\post/view.php
+INFO - 2017-09-04 18:06:38 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-04 18:06:38 --> Final output sent to browser
+DEBUG - 2017-09-04 18:06:38 --> Total execution time: 0.8925

@@ -5,13 +5,13 @@ class M_Post extends CI_Model {
 	}
 	function add($data){
 		$this->db->insert('posts', $data);
+		return $this->db->select('MAX(id) AS id')->get('posts')->result_array()[0]['id'];
 	}
 	function get($id, $title){
 		$role = $this->db->select('role')->where([
 			'id' => $id,
 			'title' => $title
 		])->get('posts',1)->result_array()[0]['role'];
-		echo '---------------------------'.$role.'---------------------------';
 		$retVal = [];
 		switch ($role) {
 			case 0:
