@@ -10,21 +10,23 @@ class M_Post extends CI_Model {
 		$role = $this->db->select('role')->where([
 			'id' => $id,
 			'title' => $title
-		])->get('posts',1)->result_array()[0];
+		])->get('posts',1)->result_array()[0]['role'];
 		echo '---------------------------'.$role.'---------------------------';
 		$retVal = [];
 		switch ($role) {
 			case 0:
 				$retVal = $this->db->select('posts.*, account.u AS u')->where([
-							'id' => $id,
+							'posts.id' => $id,
 							'title' => $title,
 						])->join('account', 'account.id=posts.id_creator')->get('posts',1)->result_array()[0];
 			break;
 			case 1:
-				$retVal = $this->db->select('posts.*, teachers.u AS u')->where([
-							'id' => $id,
+				$retVal = $this->db->select('posts.*, teachers.nama AS nama')->where([
+							'posts.id' => $id,
 							'title' => $title,
-						])->join('teachers', 'teachers.id=posts.id_creator')->get('posts',1)->result_array()[0];
+						])->join('account', 'account.id=posts.id_creator')
+						->join('teachers', 'teachers.id_account=account.id')
+						->get('posts',1)->result_array()[0];
 			break;
 		}
 		return $retVal;

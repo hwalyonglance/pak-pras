@@ -9,15 +9,16 @@
 			<div class="row">
 				<div class="col s12">
 					<span class="small"><?=$data['post']['created_at']?></span>
-					<span class="small"><?=$data['post']['u']?></span>
+					<span class="small"><?=$data['post']['nama']?></span>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col s12 xl8" style="border: 1px solid red">
-			<!-- <?=$data['post']['body']?> -->
+			<!-- <?=str_replace('PP_DOUBLE_QUOTE', '"', str_replace('PP_SINGLE_QUOTE', '\'', $data['post']['body']))?> -->
 			<?php
+				$data['post']['body'] = '';
 				echo "<pre>";
 				print_r ($data);
 				echo "</pre>";

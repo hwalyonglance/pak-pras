@@ -41,7 +41,8 @@
 		schema: 'html5'
 	});
 	$(document).ready(function() {
-		$('[name="title"]').keydown(function(event) {
+		$('[name="title"]').keyup(function(event) {
+			$('[name="title"]').val( $('[name="title"]').val().replace(' ', '-') )
 			let char = '`~!@#$%^&*()_=+[{]}\\|;:\'\",<.>?\/'
 			if (in_array(event.key, char.split(''))) {
 				let a = $('[name="title"]').val().split('');

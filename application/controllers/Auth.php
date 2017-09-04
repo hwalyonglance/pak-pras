@@ -17,7 +17,10 @@ class Auth extends CI_Controller {
 		}
 	}
 	function guru(){
-		$data = $this->db->select('id,u,p')->where('role', '1')->get('account', 1)->result_array()[0];
+		$data = $this->db->select('id,u,p')->where([
+					'role' => '1',
+					'u' => $_POST['u']
+				])->get('account', 1)->result_array()[0];
 		if (password_verify($_POST['p'], $data['p'])) {
 			$this->session->set_userdata([
 				'role_1_id' => $data['id'],
