@@ -9,12 +9,15 @@ class Post extends CI_Controller {
 	function index(){
 		$this->load->view('kegiatan/index');		
 	}
-	function s($id,$title){
+	function view($id,$title){
 		$this->load->view('_atas');
 		$this->load->view('_nav');
 		$this->load->view('post/view', [
 			'data' => [
-				'post' => $this->M_Post->get($id, $title)
+				'post' => [
+					'view' => $this->M_Post->get($id, $title),
+					'newest' => $this->M_Post->get_newest(10)
+				]
 			]
 		], FALSE);
 		$this->load->view('_footer');
@@ -22,7 +25,7 @@ class Post extends CI_Controller {
 	function add(){
 		$_POST['body'] = str_replace('"', 'PP_DOUBLE_QUOTE', str_replace('\'', 'PP_SINGLE_QUOTE', $_POST['body']));
 		$id = $this->M_Post->add($_POST);
-		redirect('post/s/'.$id.'/'.$_POST['title']);
+		redirect('post/view/'.$id.'/'.$_POST['title']);
 	}
 	function encodeURI(){
 		$this->output->set_content_type('application/json')->set_output(json_encode(

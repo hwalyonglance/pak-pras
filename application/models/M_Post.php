@@ -31,6 +31,9 @@ class M_Post extends CI_Model {
 		}
 		return $retVal;
 	}
+	function get_newest($limit = 10){
+		return $this->db->select('id,title')->order_by('id', 'DESC')->get('posts', $limit)->result_array();
+	}
 	function gets(){
 		
 	}
