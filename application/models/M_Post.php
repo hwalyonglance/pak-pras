@@ -43,8 +43,8 @@ class M_Post extends CI_Model {
 						->order_by('id', 'DESC')
 						->get('posts', $limit)->result_array();
 	}
-	function gets(){
-		
+	function gets($id_creator=''){
+		return $this->db->select('id,title,view_count')->where('id_creator', $id_creator)->get('posts')->result_array();
 	}
 	function update($data){
 		

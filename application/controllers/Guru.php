@@ -5,6 +5,7 @@ class Guru extends CI_Controller {
 		if (!$this->session->userdata('is_role_1_logged_in')) {
 			redirect('login/guru');
 		}
+		$this->load->model('M_Post');
 	}
 	function index(){
 		$this->load->view('_atas');
@@ -17,10 +18,10 @@ class Guru extends CI_Controller {
 		]);
 		redirect('');
 	}
-	function post($type = '', $id = ''){
+	function post($action = '', $id = ''){
 		$this->load->view('_atas');
 		$this->load->view('guru/_nav');
-		switch ($type) {
+		switch ($action) {
 			case 'add':
 				$this->load->view('form/post/index', [
 					'data' => [
@@ -48,6 +49,11 @@ class Guru extends CI_Controller {
 				]);
 			break;
 			default:
+				$this->load->view('guru/post',[
+					'data' => [
+						'posts' => $this->M_Post->gets($this->session->userdata('role_1_id'))
+					]
+				]);
 			break;
 		}
 		
