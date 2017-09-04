@@ -4,7 +4,23 @@ class M_Guru extends CI_Model {
 		parent::__construct();
 	}
 	function add($data){
-		$this->db->insert('teachers', $data);
+		$this->db->insert('account', [
+			'u' => $data['u'],
+			'p' => $data['p'],
+			'role' => '1'
+		]);
+		$id_account = $this->db->select('id')->where([
+			'u' => $data['u'],
+			'p' => $data['p'],
+			'role' => '1'
+		])->get('account')->result_array()[0]['id'];
+		$this->db->insert('teachers', [
+			'id_account' => $id_account,
+			'nama' => $data['nama'],
+			'pel' => $data['pel'],
+			'foto' => $data['foto'],
+			'bio' => $data['bio']
+		]);
 		redirect('guru/');
 	}
 	function gets(){

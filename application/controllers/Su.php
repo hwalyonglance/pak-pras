@@ -6,6 +6,7 @@ class Su extends CI_Controller {
 			redirect('login/su');
 		}
 		$this->load->model('M_Su');
+		$this->load->model('M_Guru');
 		$this->load->model('M_Murid');
 	}
 	function index(){
@@ -36,6 +37,16 @@ class Su extends CI_Controller {
 			}
 			$this->load->view('table/murid/index', ['data'=>$data]);
 		}
+	}
+	function guru(){
+		$this->load->view('_atas');
+		$this->load->view('su/_nav');
+		$this->load->view('/guru/index', [
+			'data' => [
+				'teachers' => $this->M_Guru->gets()
+			]
+		]);
+		$this->load->view('_footer');
 	}
 	function posts(){
 		$this->load->view('su/posts');

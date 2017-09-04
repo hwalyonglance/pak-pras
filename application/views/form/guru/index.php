@@ -4,7 +4,7 @@
 	}
 </style>
 <!-- FORM ADD || UPDATE -->
-<?=form_open_multipart('guru/add',['id'=>'fg'],['id'=>null])?>
+<?=form_open_multipart('api/guru/add',['id'=>'fg'],['id'=>null])?>
 	<div id="add" class="modal">
 		<div class="modal-content">
 			<h4 id="h"></h4>
@@ -68,7 +68,7 @@
 	</div>
 </form>
 <!-- FORM DELETE -->
-<?=form_open('guru/delete',[],['guru_id'=>'0'])?>
+<?=form_open('api/guru/delete',[],['guru_id'=>'0'])?>
 	<div id="drop" class="modal gdmw">
 		<div class="modal-content">
 			<h4 class="center">Hapus Guru ini?</h4>
@@ -111,7 +111,7 @@
 	function usernameOnKeyUp($this){
 		if ($this.value !== '') {
 			$.ajax({
-				url: '<?=base_url()?>guru/u',
+				url: '<?=base_url()?>api/guru/cek_username',
 				type: 'POST',
 				dataType: 'json',
 				data: {u: $this.value},
@@ -145,7 +145,7 @@
 		$('#bio').val('')
 		$('#bio').trigger('autoresize')
 		Materialize.updateTextFields()
-		$('#fg').attr('action', '<?=base_url()?>guru/add')
+		$('#fg').attr('action', '<?=base_url()?>api/guru/add')
 		$('#add').modal('open')
 		$('#h').text('Tambah Guru')
 		$('#preview').attr('src','<?=base_url()?>assets/img/samples/hitam.png')
@@ -160,7 +160,7 @@
 		$('#bio').val(guru.bio)
 		$('#bio').trigger('autoresize')
 		Materialize.updateTextFields()
-		$('#fg').attr('action', '<?=base_url()?>guru/update')
+		$('#fg').attr('action', '<?=base_url()?>api/guru/update')
 		$('#add').modal('open')
 		$('#h').text('Edit Guru')
 		$('#preview').attr('src','<?=base_url()?>uploads/guru/'+guru.foto)
