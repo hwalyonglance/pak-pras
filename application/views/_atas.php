@@ -24,6 +24,9 @@
 				padding-bottom: 56px;
 			}		
 		}
+		.mce-container.mce-panel.mce-floatpanel.mce-window.mce-in{
+			left: 25% !important;
+		}
 		.mce-container.mce-panel.mce-floatpanel.mce-window.mce-in,
 		#mceu_46-head.mce-window-head{
 			width:  600px !important;

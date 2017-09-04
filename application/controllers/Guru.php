@@ -17,15 +17,40 @@ class Guru extends CI_Controller {
 		]);
 		redirect('');
 	}
-	function add_post(){
+	function post($type = '', $id = ''){
 		$this->load->view('_atas');
 		$this->load->view('guru/_nav');
-		$this->load->view('form/post/index', [
-			'data' => [
-				'id_creator' => $this->session->userdata('role_1_id'),
-				'role' => '1'
-			]
-		]);
+		switch ($type) {
+			case 'add':
+				$this->load->view('form/post/index', [
+					'data' => [
+						'id_creator' => $this->session->userdata('role_1_id'),
+						'role' => '1',
+						'action' => 'add'
+					]
+				]);
+			break;
+			case 'edit':
+				$post = $this->db->select('title,body')
+						->where(['id' => $id, 'id_creator' => $this->session->userdata('role_1_id')])
+						->get('posts', 1)->result_array()[0];
+				$this->load->view('form/post/index', [
+					'data' => [
+						'id_creator' => $this->session->userdata('role_1_id'),
+						'role' => '1',
+						'action' => 'edit',
+						'post' => [
+							'id' => $id,
+							'title' => $post['title'],
+							'body' => $post['body'],
+						]
+					]
+				]);
+			break;
+			default:
+			break;
+		}
+		
 	}
 }
 

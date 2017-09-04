@@ -8,6 +8,7 @@ class Auth extends CI_Controller {
 		if (password_verify($_POST['p'], $data['p'])) {
 			$this->session->set_userdata([
 				'role_0_id' => $data['id'],
+				'role_0_u' => $data['u'],
 				'is_role_0_logged_in' => true
 			]);
 			redirect('su/');
@@ -24,6 +25,7 @@ class Auth extends CI_Controller {
 		if (password_verify($_POST['p'], $data['p'])) {
 			$this->session->set_userdata([
 				'role_1_id' => $data['id'],
+				'role_1_u' => $data['u'],
 				'is_role_1_logged_in' => true
 			]);
 			redirect('guru/');

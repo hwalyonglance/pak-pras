@@ -16,13 +16,15 @@ class Post extends CI_Controller {
 			'data' => [
 				'post' => [
 					'view' => $this->M_Post->get($id, $title),
-					'newest' => $this->M_Post->get_newest(10)
+					'newest' => $this->M_Post->get_newest(10),
+					'popular' => $this->M_Post->get_popular(10)
 				]
 			]
 		], FALSE);
 		$this->load->view('_footer');
 	}
 	function add(){
+		$_POST['id'] = NULL;
 		$_POST['body'] = str_replace('"', 'PP_DOUBLE_QUOTE', str_replace('\'', 'PP_SINGLE_QUOTE', $_POST['body']));
 		$id = $this->M_Post->add($_POST);
 		redirect('post/view/'.$id.'/'.$_POST['title']);

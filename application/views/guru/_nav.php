@@ -4,8 +4,8 @@
 		<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
 			<li><a href="<?=base_url()?>">Home</a></li>
-			<li><a href="<?=base_url()?>guru/add_post">Posts</a></li>
-			<li><a href="<?=base_url()?>guru/logout">Logout</a></li>
+			<li><a href="<?=base_url()?>guru/post">Posts</a></li>
+			<li><a href="<?=base_url()?>guru/logout">Logout(<?=$this->session->userdata('role_1_u')?>)</a></li>
 		</ul>
 		<ul class="side-nav" id="mobile-demo"></ul>
     </div>

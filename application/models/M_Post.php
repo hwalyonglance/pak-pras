@@ -12,6 +12,7 @@ class M_Post extends CI_Model {
 			'id' => $id,
 			'title' => $title
 		])->get('posts',1)->result_array()[0]['role'];
+		$this->plus_1_view_count($id);
 		$retVal = [];
 		switch ($role) {
 			case 0:
@@ -32,7 +33,15 @@ class M_Post extends CI_Model {
 		return $retVal;
 	}
 	function get_newest($limit = 10){
-		return $this->db->select('id,title')->order_by('id', 'DESC')->get('posts', $limit)->result_array();
+		return $this->db->select('id,title,view_count')
+						->order_by('id', 'DESC')
+						->get('posts', $limit)->result_array();
+	}
+	function get_popular($limit = 10){
+		return $this->db->select('id,title,view_count')
+						->order_by('view_count', 'DESC')
+						->order_by('id', 'DESC')
+						->get('posts', $limit)->result_array();
 	}
 	function gets(){
 		
@@ -43,7 +52,10 @@ class M_Post extends CI_Model {
 	function delete($id){
 		$this->db->where('id', $id)->delete('kegiatan');
 	}
-
+	function plus_1_view_count($id){
+		$view_count = $this->db->select('view_count')->where('id', $id)->get('posts')->result_array()[0]['view_count'] + 1;
+		$this->db->where('id', $id)->update('posts', ['view_count' => $view_count]);
+	}
 }
 
 /* End of file M_Kegiatan.php */

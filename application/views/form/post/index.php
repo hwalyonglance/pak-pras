@@ -1,15 +1,24 @@
-<?=form_open('post/add',[],['id_creator' => $data['id_creator'], 'role'=>$data['role']])?>
+<?php 
+echo form_open(
+	'post/'.$data['action'],
+	[],
+	[
+		'id'=> isset($data['post']) ? $data['post']['id'] : '',
+		'id_creator' => $data['id_creator'],
+		'role'=>$data['role']
+	])
+?>
 <div class="container">
 	<div class="row">
 		<div class="col s12 xl8 push-xl1">
 			<header>
-				<h3>Create new post</h3>
+				<h3><?=$data['action'] == 'edit' ? 'Edit' : 'Create new'?> Post</h3>
 			</header>			
 		</div>
 	</div>
 	<div class="row">
 		<div class="input-field col s9 xl8 push-xl1">
-			<input id="judul" type="text" name="title" class="validate">
+			<input id="judul" type="text" name="title" class="validate" value="<?=isset($data['post']) ? $data['post']['title'] : ''?>">
 			<label for="judul">Judul</label>
 		</div>
 		<div class="input-field col s3 xl1 push-xl1">
@@ -18,7 +27,7 @@
 	</div>
 	<div class="row">
 		<div class="input-field col s12 xl10 push-xl1">
-			<textarea name="body" class="materialize-textarea"></textarea>
+			<textarea name="body" class="materialize-textarea"><?=isset($data['post']) ? $data['post']['body'] : '' ?></textarea>
 		</div>
 	</div>
 </div>
