@@ -1,4 +1,4 @@
-<?=form_open('post/add',[],['id' => $data['id'], 'from'=>$data['from']])?>
+<?=form_open('post/add',[],['id_creator' => $data['id_creator'], 'role'=>$data['role']])?>
 <div class="container">
 	<div class="row">
 		<div class="col s12 xl8 push-xl1">
@@ -8,11 +8,11 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="input-field col s18 xl8 push-xl1">
+		<div class="input-field col s9 xl8 push-xl1">
 			<input id="judul" type="text" name="title" class="validate">
-			<label for="judul" data-error="wrong" data-success="right">Judul</label>
+			<label for="judul">Judul</label>
 		</div>
-		<div class="input-field col s4 xl1 push-xl1">
+		<div class="input-field col s3 xl1 push-xl1">
 			<button class="btn" type="submit">Add</button>
 		</div>
 	</div>
@@ -41,11 +41,26 @@
 		schema: 'html5'
 	});
 	$(document).ready(function() {
-		$('[name="title"]').keyup(function(event) {
-			$(this).val($(this).val().replace(' ', '-'))
+		$('[name="title"]').keydown(function(event) {
+			let char = '`~!@#$%^&*()_=+[{]}\\|;:\'\",<.>?\/'
+			if (in_array(event.key, char.split(''))) {
+				let a = $('[name="title"]').val().split('');
+				a.pop()
+				$('[name="title"]').val( a.join('') )
+			}
+		}).paste(function(e){
+			e.preventDefault()
 		});
-		$('form[action="<?=base_url()?>post/add"]').submit(function(event) {
-			alert('ggg')
-		});
+		// $('form[action="<?=base_url()?>post/add"]').submit(function(event) {
+		// 	alert('ggg')
+		// });
+		function in_array(str,arr){
+			for( alias of arr ){
+				if (str == alias) {
+					return true;
+				}
+			}
+			return false;
+		}
 	});
 </script>

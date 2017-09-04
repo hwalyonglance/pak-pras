@@ -453,7 +453,7 @@ $config['csrf_token_name'] = 'pak_pras_token';
 $config['csrf_cookie_name'] = 'pak_pras_cookie';
 $config['csrf_expire'] = 3600;
 $config['csrf_regenerate'] = TRUE;
-$config['csrf_exclude_uris'] = array('guru/u');
+$config['csrf_exclude_uris'] = ['guru/u', 'post/encodeURI'];
 
 /*
 |--------------------------------------------------------------------------

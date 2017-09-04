@@ -2,6 +2,9 @@
 class Guru extends CI_Controller {
 	function __construct(){
 		parent::__construct();
+		if (!$this->session->userdata('is_role_1_logged_in')) {
+			redirect('login/guru');
+		}
 		$this->load->model('M_Guru');
 		$this->load->library('upload', [
 			'upload_path' => './uploads/guru/',
@@ -28,8 +31,8 @@ class Guru extends CI_Controller {
 		$this->load->view('guru/_nav');
 		$this->load->view('form/post/index', [
 			'data' => [
-				'id' => $this->session->userdata('role_1_id'),
-				'from' => 'guru'
+				'id_creator' => $this->session->userdata('role_1_id'),
+				'role' => '1'
 			]
 		]);
 	}
