@@ -5,6 +5,8 @@ class Daftar extends CI_Controller {
 		$this->load->model('M_Guru');
 	}
 	function guru(){
+		$this->load->view('_atas');
+		$this->load->view('_nav');
 		$this->load->view('guru/index', [
 			'data' => [
 				'teachers' => $this->M_Guru->gets()
@@ -19,7 +21,7 @@ class Daftar extends CI_Controller {
 		$this->load->view('_atas');
 		$data = [
 			'display' => 'list',
-			'murid' => $this->db->select('id,nama,asal,jk,created_at')->order_by('id','DESC')->get('f1')->result_array()
+			'murid' => $this->db->select('id,nama,asal,skhu,jk,created_at')->order_by('id','DESC')->get('f1')->result_array()
 		];
 		if ( ((int) $id) > 0 ) {
 			$data = [

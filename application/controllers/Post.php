@@ -29,6 +29,11 @@ class Post extends CI_Controller {
 		$id = $this->M_Post->add($_POST);
 		redirect('post/view/'.$id.'/'.$_POST['title']);
 	}
+	function update(){
+		$_POST['body'] = str_replace('"', 'PP_DOUBLE_QUOTE', str_replace('\'', 'PP_SINGLE_QUOTE', $_POST['body']));
+		$this->M_Post->update($_POST);
+		redirect('post/view/'.$_POST['id'].'/'.$_POST['title']);
+	}
 	function encodeURI(){
 		$this->output->set_content_type('application/json')->set_output(json_encode(
 			[ 'title' => urlencode($_POST['title']) ]

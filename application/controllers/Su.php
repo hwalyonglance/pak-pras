@@ -41,13 +41,6 @@ class Su extends CI_Controller {
 			$this->load->view('table/murid/index', ['data'=>$data]);
 		}
 	}
-	function get_period(){
-		echo "<pre>";
-		print_r (array_unique(array_map(function($val){
-			return substr($val['created_at'], 0, 4);
-		}, $this->M_Murid->get_period())));
-		echo "</pre>";
-	}
 	function guru(){
 		$this->load->view('_atas');
 		$this->load->view('su/_nav');

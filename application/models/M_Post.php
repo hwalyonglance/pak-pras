@@ -46,8 +46,8 @@ class M_Post extends CI_Model {
 	function gets($id_creator=''){
 		return $this->db->select('id,title,view_count')->where('id_creator', $id_creator)->get('posts')->result_array();
 	}
-	function update($data){
-		
+	function update($post){
+		$this->db->where('id', $post['id'])->update('posts', $post);		
 	}
 	function delete($id){
 		$this->db->where('id', $id)->delete('kegiatan');

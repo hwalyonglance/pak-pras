@@ -1,6 +1,5 @@
 <?php
-	$this->load->view('_atas');
-	if ($this->session->userdata('is_role_0_logged_in')) {
+	if ( $this->session->userdata('is_role_0_logged_in') && substr($_SERVER['PATH_INFO'], 0, 12) !== '/daftar/guru' ) {
 		$this->load->view('form/guru/index');
 	}
 ?>
@@ -27,7 +26,7 @@
 				<div class="card">
 					<div class="card-image">
 						<img src="<?=base_url()?>uploads/guru/<?=$data['teachers'][$i]['foto']?>" style='max-height: 200px'>
-						<?php if($this->session->userdata('is_role_0_logged_in')) {?>
+						<?php if( $this->session->userdata('is_role_0_logged_in') && substr($_SERVER['PATH_INFO'], 0, 12) !== '/daftar/guru' ) {?>
 							<button class="btn-floating halfway-fab waves-effect waves-light red left" onclick='drop(<?=json_encode($data['teachers'][$i])?>)'>
 								<i class="material-icons">delete_forever</i>
 							</button>

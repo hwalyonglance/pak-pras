@@ -1,6 +1,6 @@
 <?php 
 echo form_open(
-	'post/'.$data['action'],
+	'post/'.($data['action'] == 'add' ? 'add' : 'update'),
 	[],
 	[
 		'id'=> isset($data['post']) ? $data['post']['id'] : '',

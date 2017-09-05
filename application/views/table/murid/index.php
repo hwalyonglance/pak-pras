@@ -15,6 +15,7 @@
 				</div>
 			</div>
 			<div class="fixed-action-btn horizontal click-to-toggle">
+			<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
 				<?php if( $_SERVER['PATH_INFO'] == '/su/murid/calon/' ){ ?>
 					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
 						<i class="large material-icons">add</i>
@@ -24,6 +25,7 @@
 						<i class="large material-icons">mode_edit</i>
 					</a>
 				<?php } ?>
+			<?php } ?>
 			</div>
 			<script>
 				$('.modal').modal();
@@ -41,24 +43,26 @@
 			padding-right: 10px;
 		}
 	</style>
-	<div class="container">
-		<div class="row">
-			<div class="input-field col s2">
-				<select id="periode">
-					<?php foreach ($data['period'] as $key => $value) { ?>
-						<option><?=$value.'/'.((int)$value + 1)?></option>
-					<?php } ?>
-				</select>
-				<label>Periode</label>
-			</div>
-			<div class="col s2">
-				<button class="btn" id="cetak" style="margin-top: 25px">
-					Cetak <i class="material-icons">print</i>
-				</button>
+	<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
+		<div class="container" style="margin-top: 32px">
+			<div class="row">
+				<div class="input-field col s2">
+					<select id="periode">
+						<?php foreach ($data['period'] as $key => $value) { ?>
+							<option><?=$value.'/'.((int)$value + 1)?></option>
+						<?php } ?>
+					</select>
+					<label>Periode</label>
+				</div>
+				<div class="col s2">
+					<button class="btn" id="cetak" style="margin-top: 25px">
+						Cetak <i class="material-icons">print</i>
+					</button>
+				</div>
 			</div>
 		</div>
-	</div>
-	<table class="bordered striped highlight responsive-table container">
+	<?php } ?>
+	<table class="bordered striped highlight responsive-table container" style="margin: 32px auto">
 		<tr>
 			<th>#No</th>
 			<th>Nama</th>
@@ -66,7 +70,7 @@
 			<th>SKHU</th>
 			<th>Jenis Kelamin</th>
 			<th>Tanggal Daftar</th>
-			<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+			<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
 				<th>$Action</th>
 			<?php } ?>
 		</tr>
@@ -78,7 +82,7 @@
 				<td><?=$murid['skhu']?></td>
 				<td><?=$murid['jk']?></td>
 				<td><?=$murid['created_at']?></td>
-				<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
+				<?php if ( $this->session->userdata('is_role_0_logged_in') && substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
 					<td>
 						<a href="<?=base_url()?>su/murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
 						<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>

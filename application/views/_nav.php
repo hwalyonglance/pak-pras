@@ -7,7 +7,7 @@
 			<li><a href="#" class='dropdown-button' data-activates='pendaftaran' data-beloworigin='true'>Pendaftaran</a></li>
 			<li><a href="<?=base_url()?>daftar/calon_murid">Murid</a></li>
 			<li><a href="<?=base_url()?>daftar/guru">Guru</a></li>
-			<li><a href="<?=base_url()?>daftar/staf">Staf</a></li>
+			<li><a href="<?=base_url()?>#daftar/staf">Staf</a></li>
 			<li><a href="<?=base_url()?>post">Posts</a></li>
 			<li><a href="<?=base_url()?>about">About</a></li>
 		</ul>
