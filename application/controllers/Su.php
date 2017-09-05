@@ -8,6 +8,7 @@ class Su extends CI_Controller {
 		$this->load->model('M_Su');
 		$this->load->model('M_Guru');
 		$this->load->model('M_Murid');
+		$this->load->model('M_Post');
 	}
 	function index(){
 		$this->load->view('su/index');	
@@ -45,15 +46,49 @@ class Su extends CI_Controller {
 	function guru(){
 		$this->load->view('_atas');
 		$this->load->view('su/_nav');
-		$this->load->view('/guru/index', [
+		$this->load->view('table/guru/index', [
 			'data' => [
 				'teachers' => $this->M_Guru->gets()
 			]
 		]);
 		$this->load->view('_footer');
 	}
-	function posts(){
-		$this->load->view('su/posts');
+	function post($action = '', $id = ''){
+		$this->load->view('_atas');
+		$this->load->view('su/_nav');
+		switch ($action) {
+			case 'add':
+				$this->load->view('form/post/index', [
+					'data' => [
+						'id_creator' => $this->session->userdata('role_0_id'),
+						'role' => '0',
+						'action' => 'add'
+					]
+				]);
+			break;
+			case 'edit':
+				$post = $this->M_Post->get_edit($id, $this->session->userdata('role_0_id'));
+				$this->load->view('form/post/index', [
+					'data' => [
+						'id_creator' => $this->session->userdata('role_0_id'),
+						'role' => '0',
+						'action' => 'edit',
+						'post' => [
+							'id' => $id,
+							'title' => $post['title'],
+							'body' => $post['body'],
+						]
+					]
+				]);
+			break;
+			default:
+				$this->load->view('guru/post',[
+					'data' => [
+						'posts' => $this->M_Post->gets($this->session->userdata('role_0_id'))
+					]
+				]);
+			break;
+		}		
 	}
 	function logout(){
 		$this->session->set_userdata([

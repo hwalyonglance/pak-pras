@@ -32,6 +32,11 @@ class M_Post extends CI_Model {
 		}
 		return $retVal;
 	}
+	function get_edit($id, $id_creator){
+		return $this->db->select('title,body')
+						->where(['id' => $id, 'id_creator' => $id_creator])
+						->get('posts', 1)->result_array()[0];
+	}
 	function get_newest($limit = 10){
 		return $this->db->select('id,title,view_count')
 						->order_by('id', 'DESC')
@@ -50,7 +55,7 @@ class M_Post extends CI_Model {
 		$this->db->where('id', $post['id'])->update('posts', $post);		
 	}
 	function delete($id){
-		$this->db->where('id', $id)->delete('kegiatan');
+		$this->db->where('id', $id)->delete('posts');
 	}
 	function plus_1_view_count($id){
 		$view_count = $this->db->select('view_count')->where('id', $id)->get('posts')->result_array()[0]['view_count'] + 1;

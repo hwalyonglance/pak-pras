@@ -32,9 +32,7 @@ class Guru extends CI_Controller {
 				]);
 			break;
 			case 'edit':
-				$post = $this->db->select('title,body')
-						->where(['id' => $id, 'id_creator' => $this->session->userdata('role_1_id')])
-						->get('posts', 1)->result_array()[0];
+				$post = $this->M_Post->get_edit($id, $this->session->userdata('role_0_id'));
 				$this->load->view('form/post/index', [
 					'data' => [
 						'id_creator' => $this->session->userdata('role_1_id'),

@@ -34,6 +34,10 @@ class Post extends CI_Controller {
 		$this->M_Post->update($_POST);
 		redirect('post/view/'.$_POST['id'].'/'.$_POST['title']);
 	}
+	function delete(){
+		$this->M_Post->delete($_POST['id']);
+		redirect('guru/post');
+	}
 	function encodeURI(){
 		$this->output->set_content_type('application/json')->set_output(json_encode(
 			[ 'title' => urlencode($_POST['title']) ]

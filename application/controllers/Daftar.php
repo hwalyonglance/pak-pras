@@ -7,7 +7,7 @@ class Daftar extends CI_Controller {
 	function guru(){
 		$this->load->view('_atas');
 		$this->load->view('_nav');
-		$this->load->view('guru/index', [
+		$this->load->view('table/guru/index', [
 			'data' => [
 				'teachers' => $this->M_Guru->gets()
 			]
