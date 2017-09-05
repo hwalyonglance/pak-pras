@@ -1,8 +1,6 @@
 <?php
 	$this->load->view('_atas');
-	$this->load->view('_nav');
 	if ($this->session->userdata('is_role_0_logged_in')) {
-		$this->load->view('su/_back', ['to'=>'guru']);
 		$this->load->view('form/guru/index');
 	}
 ?>
