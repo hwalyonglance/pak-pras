@@ -10,13 +10,13 @@ class M_Murid extends CI_Model {
 		$this->db->insert('f5', $data[5]);
 		redirect('murid/calon/'.$id);
 	}
-	function get($id){
+	function get($id, $status){
 		return [
-			1 => $this->db->where('id',$id)->get('f1')->result_array()[0],
-			2 => $this->db->where('id',$id)->get('f2')->result_array()[0],
-			3 => $this->db->where('id',$id)->get('f3')->result_array()[0],
-			4 => $this->db->where('id',$id)->get('f4')->result_array()[0],
-			5 => $this->db->where('id',$id)->get('f5')->result_array()[0]
+			1 => $this->db->where([ 'id' => $id, 'status' => $status ])->get('f1')->result_array()[0],
+			2 => $this->db->where([ 'id' => $id ])->get('f2')->result_array()[0],
+			3 => $this->db->where([ 'id' => $id ])->get('f3')->result_array()[0],
+			4 => $this->db->where([ 'id' => $id ])->get('f4')->result_array()[0],
+			5 => $this->db->where([ 'id' => $id ])->get('f5')->result_array()[0]
 		];
 	}
 	function update($data){
@@ -40,8 +40,8 @@ class M_Murid extends CI_Model {
 		$this->db->where('id', $id)->delete('f5');
 		redirect('murid/calon');
 	}
-	function get_period(){
-		return $this->db->select('created_at')->get('f1')->result_array();
+	function get_period($status){
+		return $this->db->select('created_at')->where(['status' => $status])->get('f1')->result_array();
 	}
 }
 

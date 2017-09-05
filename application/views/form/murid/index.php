@@ -50,7 +50,7 @@
 	}
 </style>
 <main>
-	<div class="purple lighten-4 <?=in_array(substr($_SERVER['PATH_INFO'], 0, 11), ['/murid/edit','/su/murid/c', '/murid/daft']) ? 'container' : ''?>">
+	<div class="purple lighten-4 <?=in_array(substr($_SERVER['PATH_INFO'], 0, 11), ['/murid/edit', '/pendaftara']) ? 'container' : ''?>">
 		<?=form_open_multipart( ($data['murid'] === NULL ? 'murid/add' : 'murid/update') , [], ['1[id]'=>$data['murid'][1]['id']])?>
 			<ul class="collapsible popout" data-collapsible="accordion">
 				<li>

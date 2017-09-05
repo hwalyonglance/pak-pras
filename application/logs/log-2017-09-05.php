@@ -4843,3 +4843,626 @@ INFO - 2017-09-05 04:39:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\
 INFO - 2017-09-05 04:39:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
 INFO - 2017-09-05 04:39:05 --> Final output sent to browser
 DEBUG - 2017-09-05 04:39:06 --> Total execution time: 0.8250
+INFO - 2017-09-05 04:49:30 --> Config Class Initialized
+INFO - 2017-09-05 04:49:30 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:49:30 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:49:30 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:49:30 --> URI Class Initialized
+INFO - 2017-09-05 04:49:30 --> Router Class Initialized
+INFO - 2017-09-05 04:49:30 --> Output Class Initialized
+INFO - 2017-09-05 04:49:30 --> Security Class Initialized
+DEBUG - 2017-09-05 04:49:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:49:30 --> CSRF cookie sent
+INFO - 2017-09-05 04:49:30 --> Input Class Initialized
+INFO - 2017-09-05 04:49:30 --> Language Class Initialized
+INFO - 2017-09-05 04:49:30 --> Loader Class Initialized
+INFO - 2017-09-05 04:49:30 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:49:30 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:49:30 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:49:31 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:49:31 --> Controller Class Initialized
+INFO - 2017-09-05 04:49:31 --> Model Class Initialized
+INFO - 2017-09-05 04:49:31 --> Model Class Initialized
+INFO - 2017-09-05 04:49:31 --> Model Class Initialized
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:49:31 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 04:49:32 --> Final output sent to browser
+DEBUG - 2017-09-05 04:49:32 --> Total execution time: 1.6020
+INFO - 2017-09-05 04:51:22 --> Config Class Initialized
+INFO - 2017-09-05 04:51:22 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:51:22 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:51:22 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:51:22 --> URI Class Initialized
+DEBUG - 2017-09-05 04:51:22 --> No URI present. Default controller set.
+INFO - 2017-09-05 04:51:22 --> Router Class Initialized
+INFO - 2017-09-05 04:51:22 --> Output Class Initialized
+INFO - 2017-09-05 04:51:22 --> Security Class Initialized
+DEBUG - 2017-09-05 04:51:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:51:22 --> CSRF cookie sent
+INFO - 2017-09-05 04:51:22 --> Input Class Initialized
+INFO - 2017-09-05 04:51:22 --> Language Class Initialized
+INFO - 2017-09-05 04:51:22 --> Loader Class Initialized
+INFO - 2017-09-05 04:51:22 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:51:22 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:51:22 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:51:22 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:51:22 --> Controller Class Initialized
+INFO - 2017-09-05 04:51:22 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:51:22 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 04:51:22 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\welcome_message.php
+INFO - 2017-09-05 04:51:22 --> Final output sent to browser
+DEBUG - 2017-09-05 04:51:22 --> Total execution time: 0.6336
+INFO - 2017-09-05 04:52:56 --> Config Class Initialized
+INFO - 2017-09-05 04:52:56 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:52:56 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:52:56 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:52:56 --> URI Class Initialized
+DEBUG - 2017-09-05 04:52:56 --> No URI present. Default controller set.
+INFO - 2017-09-05 04:52:56 --> Router Class Initialized
+INFO - 2017-09-05 04:52:56 --> Output Class Initialized
+INFO - 2017-09-05 04:52:56 --> Security Class Initialized
+DEBUG - 2017-09-05 04:52:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:52:56 --> CSRF cookie sent
+INFO - 2017-09-05 04:52:56 --> Input Class Initialized
+INFO - 2017-09-05 04:52:56 --> Language Class Initialized
+INFO - 2017-09-05 04:52:56 --> Loader Class Initialized
+INFO - 2017-09-05 04:52:56 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:52:56 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:52:56 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:52:56 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:52:56 --> Controller Class Initialized
+INFO - 2017-09-05 04:52:56 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:52:56 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 04:52:56 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\welcome_message.php
+INFO - 2017-09-05 04:52:56 --> Final output sent to browser
+DEBUG - 2017-09-05 04:52:56 --> Total execution time: 0.6028
+INFO - 2017-09-05 04:53:04 --> Config Class Initialized
+INFO - 2017-09-05 04:53:04 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:53:04 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:53:04 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:53:04 --> URI Class Initialized
+INFO - 2017-09-05 04:53:04 --> Router Class Initialized
+INFO - 2017-09-05 04:53:04 --> Output Class Initialized
+INFO - 2017-09-05 04:53:04 --> Security Class Initialized
+DEBUG - 2017-09-05 04:53:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:53:04 --> CSRF cookie sent
+INFO - 2017-09-05 04:53:05 --> Input Class Initialized
+INFO - 2017-09-05 04:53:05 --> Language Class Initialized
+INFO - 2017-09-05 04:53:05 --> Loader Class Initialized
+INFO - 2017-09-05 04:53:05 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:53:05 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:53:05 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:53:05 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:53:05 --> Controller Class Initialized
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 04:53:05 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-05 04:53:05 --> Final output sent to browser
+DEBUG - 2017-09-05 04:53:05 --> Total execution time: 0.8216
+INFO - 2017-09-05 04:54:15 --> Config Class Initialized
+INFO - 2017-09-05 04:54:15 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:54:15 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:54:15 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:54:15 --> URI Class Initialized
+INFO - 2017-09-05 04:54:15 --> Router Class Initialized
+INFO - 2017-09-05 04:54:15 --> Output Class Initialized
+INFO - 2017-09-05 04:54:15 --> Security Class Initialized
+DEBUG - 2017-09-05 04:54:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:54:15 --> CSRF cookie sent
+INFO - 2017-09-05 04:54:15 --> Input Class Initialized
+INFO - 2017-09-05 04:54:15 --> Language Class Initialized
+INFO - 2017-09-05 04:54:15 --> Loader Class Initialized
+INFO - 2017-09-05 04:54:15 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:54:15 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:54:15 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:54:15 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:54:15 --> Controller Class Initialized
+INFO - 2017-09-05 04:54:15 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:54:15 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:54:15 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:54:15 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:54:16 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:54:16 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:54:16 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:54:16 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 04:54:16 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-05 04:54:16 --> Final output sent to browser
+DEBUG - 2017-09-05 04:54:16 --> Total execution time: 0.7286
+INFO - 2017-09-05 04:54:29 --> Config Class Initialized
+INFO - 2017-09-05 04:54:29 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:54:29 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:54:29 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:54:29 --> URI Class Initialized
+INFO - 2017-09-05 04:54:29 --> Router Class Initialized
+INFO - 2017-09-05 04:54:29 --> Output Class Initialized
+INFO - 2017-09-05 04:54:29 --> Security Class Initialized
+DEBUG - 2017-09-05 04:54:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:54:29 --> CSRF cookie sent
+INFO - 2017-09-05 04:54:29 --> Input Class Initialized
+INFO - 2017-09-05 04:54:29 --> Language Class Initialized
+INFO - 2017-09-05 04:54:29 --> Loader Class Initialized
+INFO - 2017-09-05 04:54:29 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:54:29 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:54:29 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:54:29 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:54:29 --> Controller Class Initialized
+INFO - 2017-09-05 04:54:29 --> Model Class Initialized
+INFO - 2017-09-05 04:54:29 --> Model Class Initialized
+INFO - 2017-09-05 04:54:29 --> Model Class Initialized
+INFO - 2017-09-05 04:54:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:54:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:54:29 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/index.php
+INFO - 2017-09-05 04:54:30 --> Final output sent to browser
+DEBUG - 2017-09-05 04:54:30 --> Total execution time: 0.6222
+INFO - 2017-09-05 04:54:33 --> Config Class Initialized
+INFO - 2017-09-05 04:54:33 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:54:33 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:54:33 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:54:33 --> URI Class Initialized
+INFO - 2017-09-05 04:54:33 --> Router Class Initialized
+INFO - 2017-09-05 04:54:33 --> Output Class Initialized
+INFO - 2017-09-05 04:54:33 --> Security Class Initialized
+DEBUG - 2017-09-05 04:54:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:54:33 --> CSRF cookie sent
+INFO - 2017-09-05 04:54:33 --> Input Class Initialized
+INFO - 2017-09-05 04:54:33 --> Language Class Initialized
+INFO - 2017-09-05 04:54:33 --> Loader Class Initialized
+INFO - 2017-09-05 04:54:33 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:54:33 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:54:33 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:54:33 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:54:33 --> Controller Class Initialized
+INFO - 2017-09-05 04:54:33 --> Model Class Initialized
+INFO - 2017-09-05 04:54:33 --> Model Class Initialized
+INFO - 2017-09-05 04:54:33 --> Model Class Initialized
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:54:33 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 04:54:33 --> Final output sent to browser
+DEBUG - 2017-09-05 04:54:34 --> Total execution time: 0.8755
+INFO - 2017-09-05 04:54:40 --> Config Class Initialized
+INFO - 2017-09-05 04:54:40 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:54:40 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:54:40 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:54:40 --> URI Class Initialized
+INFO - 2017-09-05 04:54:40 --> Router Class Initialized
+INFO - 2017-09-05 04:54:40 --> Output Class Initialized
+INFO - 2017-09-05 04:54:41 --> Security Class Initialized
+DEBUG - 2017-09-05 04:54:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:54:41 --> CSRF cookie sent
+INFO - 2017-09-05 04:54:41 --> Input Class Initialized
+INFO - 2017-09-05 04:54:41 --> Language Class Initialized
+INFO - 2017-09-05 04:54:41 --> Loader Class Initialized
+INFO - 2017-09-05 04:54:41 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:54:41 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:54:41 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:54:41 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:54:41 --> Controller Class Initialized
+INFO - 2017-09-05 04:54:41 --> Model Class Initialized
+INFO - 2017-09-05 04:54:41 --> Model Class Initialized
+INFO - 2017-09-05 04:54:41 --> Model Class Initialized
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:54:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/1.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/2.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/3.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/4.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/5.php
+INFO - 2017-09-05 04:54:42 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 04:54:42 --> Final output sent to browser
+DEBUG - 2017-09-05 04:54:42 --> Total execution time: 1.6349
+INFO - 2017-09-05 04:54:46 --> Config Class Initialized
+INFO - 2017-09-05 04:54:46 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:54:46 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:54:46 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:54:46 --> URI Class Initialized
+INFO - 2017-09-05 04:54:46 --> Router Class Initialized
+INFO - 2017-09-05 04:54:46 --> Output Class Initialized
+INFO - 2017-09-05 04:54:46 --> Security Class Initialized
+DEBUG - 2017-09-05 04:54:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:54:46 --> CSRF cookie sent
+INFO - 2017-09-05 04:54:46 --> Input Class Initialized
+INFO - 2017-09-05 04:54:46 --> Language Class Initialized
+INFO - 2017-09-05 04:54:46 --> Loader Class Initialized
+INFO - 2017-09-05 04:54:46 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:54:46 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:54:46 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:54:47 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:54:47 --> Controller Class Initialized
+INFO - 2017-09-05 04:54:47 --> Model Class Initialized
+INFO - 2017-09-05 04:54:47 --> Model Class Initialized
+INFO - 2017-09-05 04:54:47 --> Model Class Initialized
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:54:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 04:54:47 --> Final output sent to browser
+DEBUG - 2017-09-05 04:54:47 --> Total execution time: 0.8717
+INFO - 2017-09-05 04:55:41 --> Config Class Initialized
+INFO - 2017-09-05 04:55:41 --> Hooks Class Initialized
+DEBUG - 2017-09-05 04:55:41 --> UTF-8 Support Enabled
+INFO - 2017-09-05 04:55:41 --> Utf8 Class Initialized
+INFO - 2017-09-05 04:55:41 --> URI Class Initialized
+INFO - 2017-09-05 04:55:41 --> Router Class Initialized
+INFO - 2017-09-05 04:55:41 --> Output Class Initialized
+INFO - 2017-09-05 04:55:41 --> Security Class Initialized
+DEBUG - 2017-09-05 04:55:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 04:55:41 --> CSRF cookie sent
+INFO - 2017-09-05 04:55:41 --> Input Class Initialized
+INFO - 2017-09-05 04:55:41 --> Language Class Initialized
+INFO - 2017-09-05 04:55:41 --> Loader Class Initialized
+INFO - 2017-09-05 04:55:41 --> Helper loaded: url_helper
+INFO - 2017-09-05 04:55:41 --> Helper loaded: form_helper
+INFO - 2017-09-05 04:55:41 --> Database Driver Class Initialized
+INFO - 2017-09-05 04:55:41 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 04:55:41 --> Controller Class Initialized
+INFO - 2017-09-05 04:55:41 --> Model Class Initialized
+INFO - 2017-09-05 04:55:41 --> Model Class Initialized
+INFO - 2017-09-05 04:55:41 --> Model Class Initialized
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 04:55:41 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 04:55:41 --> Final output sent to browser
+DEBUG - 2017-09-05 04:55:42 --> Total execution time: 0.7936
+INFO - 2017-09-05 05:02:26 --> Config Class Initialized
+INFO - 2017-09-05 05:02:27 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:02:27 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:02:27 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:02:27 --> URI Class Initialized
+INFO - 2017-09-05 05:02:27 --> Router Class Initialized
+INFO - 2017-09-05 05:02:27 --> Output Class Initialized
+INFO - 2017-09-05 05:02:27 --> Security Class Initialized
+DEBUG - 2017-09-05 05:02:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:02:27 --> CSRF cookie sent
+INFO - 2017-09-05 05:02:27 --> Input Class Initialized
+INFO - 2017-09-05 05:02:27 --> Language Class Initialized
+INFO - 2017-09-05 05:02:27 --> Loader Class Initialized
+INFO - 2017-09-05 05:02:27 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:02:27 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:02:27 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:02:27 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:02:27 --> Controller Class Initialized
+INFO - 2017-09-05 05:02:27 --> Model Class Initialized
+INFO - 2017-09-05 05:02:27 --> Model Class Initialized
+INFO - 2017-09-05 05:02:27 --> Model Class Initialized
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:02:27 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:02:27 --> Final output sent to browser
+DEBUG - 2017-09-05 05:02:28 --> Total execution time: 1.3590
+INFO - 2017-09-05 05:02:35 --> Config Class Initialized
+INFO - 2017-09-05 05:02:35 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:02:35 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:02:35 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:02:35 --> URI Class Initialized
+INFO - 2017-09-05 05:02:35 --> Router Class Initialized
+INFO - 2017-09-05 05:02:35 --> Output Class Initialized
+INFO - 2017-09-05 05:02:35 --> Security Class Initialized
+DEBUG - 2017-09-05 05:02:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:02:35 --> CSRF cookie sent
+INFO - 2017-09-05 05:02:35 --> Input Class Initialized
+INFO - 2017-09-05 05:02:36 --> Language Class Initialized
+INFO - 2017-09-05 05:02:36 --> Loader Class Initialized
+INFO - 2017-09-05 05:02:36 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:02:36 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:02:36 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:02:36 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:02:36 --> Controller Class Initialized
+INFO - 2017-09-05 05:02:36 --> Model Class Initialized
+INFO - 2017-09-05 05:02:36 --> Model Class Initialized
+INFO - 2017-09-05 05:02:36 --> Model Class Initialized
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+ERROR - 2017-09-05 05:02:36 --> Severity: Notice --> Undefined offset: 1 E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form\murid\index.php 54
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:02:36 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:02:36 --> Final output sent to browser
+DEBUG - 2017-09-05 05:02:36 --> Total execution time: 0.8570
+INFO - 2017-09-05 05:05:47 --> Config Class Initialized
+INFO - 2017-09-05 05:05:47 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:05:47 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:05:47 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:05:47 --> URI Class Initialized
+INFO - 2017-09-05 05:05:47 --> Router Class Initialized
+INFO - 2017-09-05 05:05:47 --> Output Class Initialized
+INFO - 2017-09-05 05:05:47 --> Security Class Initialized
+DEBUG - 2017-09-05 05:05:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:05:47 --> CSRF cookie sent
+INFO - 2017-09-05 05:05:47 --> Input Class Initialized
+INFO - 2017-09-05 05:05:47 --> Language Class Initialized
+INFO - 2017-09-05 05:05:47 --> Loader Class Initialized
+INFO - 2017-09-05 05:05:47 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:05:47 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:05:47 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:05:47 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:05:47 --> Controller Class Initialized
+INFO - 2017-09-05 05:05:47 --> Model Class Initialized
+INFO - 2017-09-05 05:05:47 --> Model Class Initialized
+INFO - 2017-09-05 05:05:47 --> Model Class Initialized
+INFO - 2017-09-05 05:05:47 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+ERROR - 2017-09-05 05:05:48 --> Severity: Notice --> Undefined offset: 1 E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form\murid\index.php 54
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:05:48 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:05:48 --> Final output sent to browser
+DEBUG - 2017-09-05 05:05:48 --> Total execution time: 0.9124
+INFO - 2017-09-05 05:06:00 --> Config Class Initialized
+INFO - 2017-09-05 05:06:00 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:06:00 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:06:00 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:06:00 --> URI Class Initialized
+INFO - 2017-09-05 05:06:00 --> Router Class Initialized
+INFO - 2017-09-05 05:06:00 --> Output Class Initialized
+INFO - 2017-09-05 05:06:00 --> Security Class Initialized
+DEBUG - 2017-09-05 05:06:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:06:00 --> CSRF cookie sent
+INFO - 2017-09-05 05:06:00 --> Input Class Initialized
+INFO - 2017-09-05 05:06:00 --> Language Class Initialized
+INFO - 2017-09-05 05:06:00 --> Loader Class Initialized
+INFO - 2017-09-05 05:06:00 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:06:00 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:06:00 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:06:00 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:06:00 --> Controller Class Initialized
+INFO - 2017-09-05 05:06:00 --> Model Class Initialized
+INFO - 2017-09-05 05:06:00 --> Model Class Initialized
+INFO - 2017-09-05 05:06:00 --> Model Class Initialized
+INFO - 2017-09-05 05:06:00 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:06:00 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 05:06:00 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:06:00 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:06:01 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:06:01 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:06:01 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:06:01 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:06:01 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:06:01 --> Final output sent to browser
+DEBUG - 2017-09-05 05:06:01 --> Total execution time: 0.8150
+INFO - 2017-09-05 05:06:04 --> Config Class Initialized
+INFO - 2017-09-05 05:06:04 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:06:04 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:06:04 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:06:04 --> URI Class Initialized
+INFO - 2017-09-05 05:06:04 --> Router Class Initialized
+INFO - 2017-09-05 05:06:04 --> Output Class Initialized
+INFO - 2017-09-05 05:06:04 --> Security Class Initialized
+DEBUG - 2017-09-05 05:06:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:06:04 --> CSRF cookie sent
+INFO - 2017-09-05 05:06:04 --> Input Class Initialized
+INFO - 2017-09-05 05:06:04 --> Language Class Initialized
+INFO - 2017-09-05 05:06:04 --> Loader Class Initialized
+INFO - 2017-09-05 05:06:04 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:06:04 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:06:04 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:06:04 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:06:04 --> Controller Class Initialized
+INFO - 2017-09-05 05:06:04 --> Model Class Initialized
+INFO - 2017-09-05 05:06:04 --> Model Class Initialized
+INFO - 2017-09-05 05:06:04 --> Model Class Initialized
+INFO - 2017-09-05 05:06:04 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:06:04 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+ERROR - 2017-09-05 05:06:04 --> Severity: Notice --> Undefined offset: 0 E:\Bitnami\XAMPP714\htdocs\pak_pras\application\models\M_Murid.php 16
+ERROR - 2017-09-05 05:06:04 --> Query error: Unknown column 'status' in 'where clause' - Invalid query: SELECT *
+FROM `f3`
+WHERE `id` = '6'
+AND `status` = '0'
+INFO - 2017-09-05 05:06:04 --> Language file loaded: language/english/db_lang.php
+INFO - 2017-09-05 05:07:50 --> Config Class Initialized
+INFO - 2017-09-05 05:07:50 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:07:50 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:07:50 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:07:50 --> URI Class Initialized
+INFO - 2017-09-05 05:07:50 --> Router Class Initialized
+INFO - 2017-09-05 05:07:50 --> Output Class Initialized
+INFO - 2017-09-05 05:07:50 --> Security Class Initialized
+DEBUG - 2017-09-05 05:07:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:07:50 --> CSRF cookie sent
+INFO - 2017-09-05 05:07:50 --> Input Class Initialized
+INFO - 2017-09-05 05:07:50 --> Language Class Initialized
+INFO - 2017-09-05 05:07:50 --> Loader Class Initialized
+INFO - 2017-09-05 05:07:50 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:07:50 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:07:50 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:07:50 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:07:50 --> Controller Class Initialized
+INFO - 2017-09-05 05:07:50 --> Model Class Initialized
+INFO - 2017-09-05 05:07:50 --> Model Class Initialized
+INFO - 2017-09-05 05:07:50 --> Model Class Initialized
+INFO - 2017-09-05 05:07:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:07:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/1.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/2.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/3.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/4.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/5.php
+INFO - 2017-09-05 05:07:51 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:07:51 --> Final output sent to browser
+DEBUG - 2017-09-05 05:07:51 --> Total execution time: 0.9880
+INFO - 2017-09-05 05:08:49 --> Config Class Initialized
+INFO - 2017-09-05 05:08:49 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:08:49 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:08:49 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:08:49 --> URI Class Initialized
+INFO - 2017-09-05 05:08:49 --> Router Class Initialized
+INFO - 2017-09-05 05:08:49 --> Output Class Initialized
+INFO - 2017-09-05 05:08:49 --> Security Class Initialized
+DEBUG - 2017-09-05 05:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:08:49 --> CSRF cookie sent
+INFO - 2017-09-05 05:08:49 --> Input Class Initialized
+INFO - 2017-09-05 05:08:49 --> Language Class Initialized
+INFO - 2017-09-05 05:08:49 --> Loader Class Initialized
+INFO - 2017-09-05 05:08:49 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:08:49 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:08:49 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:08:49 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:08:49 --> Controller Class Initialized
+INFO - 2017-09-05 05:08:49 --> Model Class Initialized
+INFO - 2017-09-05 05:08:49 --> Model Class Initialized
+INFO - 2017-09-05 05:08:49 --> Model Class Initialized
+INFO - 2017-09-05 05:08:49 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:08:49 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\su/_nav.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/1.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/2.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/3.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/4.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/5.php
+INFO - 2017-09-05 05:08:50 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:08:50 --> Final output sent to browser
+DEBUG - 2017-09-05 05:08:50 --> Total execution time: 1.0206
+INFO - 2017-09-05 05:09:01 --> Config Class Initialized
+INFO - 2017-09-05 05:09:01 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:09:01 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:09:01 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:09:01 --> URI Class Initialized
+INFO - 2017-09-05 05:09:01 --> Router Class Initialized
+INFO - 2017-09-05 05:09:01 --> Output Class Initialized
+INFO - 2017-09-05 05:09:01 --> Security Class Initialized
+DEBUG - 2017-09-05 05:09:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:09:01 --> CSRF cookie sent
+INFO - 2017-09-05 05:09:01 --> Input Class Initialized
+INFO - 2017-09-05 05:09:01 --> Language Class Initialized
+INFO - 2017-09-05 05:09:01 --> Loader Class Initialized
+INFO - 2017-09-05 05:09:01 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:09:02 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:09:02 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:09:02 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:09:02 --> Controller Class Initialized
+INFO - 2017-09-05 05:09:02 --> Model Class Initialized
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 05:09:02 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-05 05:09:02 --> Final output sent to browser
+DEBUG - 2017-09-05 05:09:02 --> Total execution time: 0.8133
+INFO - 2017-09-05 05:10:10 --> Config Class Initialized
+INFO - 2017-09-05 05:10:10 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:10:10 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:10:10 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:10:10 --> URI Class Initialized
+INFO - 2017-09-05 05:10:10 --> Router Class Initialized
+INFO - 2017-09-05 05:10:10 --> Output Class Initialized
+INFO - 2017-09-05 05:10:10 --> Security Class Initialized
+DEBUG - 2017-09-05 05:10:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:10:10 --> CSRF cookie sent
+INFO - 2017-09-05 05:10:10 --> Input Class Initialized
+INFO - 2017-09-05 05:10:10 --> Language Class Initialized
+INFO - 2017-09-05 05:10:10 --> Loader Class Initialized
+INFO - 2017-09-05 05:10:10 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:10:10 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:10:10 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:10:10 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:10:10 --> Controller Class Initialized
+INFO - 2017-09-05 05:10:10 --> Model Class Initialized
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 05:10:10 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-05 05:10:11 --> Final output sent to browser
+DEBUG - 2017-09-05 05:10:11 --> Total execution time: 0.7650
+INFO - 2017-09-05 05:10:18 --> Config Class Initialized
+INFO - 2017-09-05 05:10:18 --> Hooks Class Initialized
+DEBUG - 2017-09-05 05:10:18 --> UTF-8 Support Enabled
+INFO - 2017-09-05 05:10:18 --> Utf8 Class Initialized
+INFO - 2017-09-05 05:10:18 --> URI Class Initialized
+INFO - 2017-09-05 05:10:18 --> Router Class Initialized
+INFO - 2017-09-05 05:10:18 --> Output Class Initialized
+INFO - 2017-09-05 05:10:18 --> Security Class Initialized
+DEBUG - 2017-09-05 05:10:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-09-05 05:10:18 --> CSRF cookie sent
+INFO - 2017-09-05 05:10:18 --> Input Class Initialized
+INFO - 2017-09-05 05:10:18 --> Language Class Initialized
+INFO - 2017-09-05 05:10:18 --> Loader Class Initialized
+INFO - 2017-09-05 05:10:18 --> Helper loaded: url_helper
+INFO - 2017-09-05 05:10:18 --> Helper loaded: form_helper
+INFO - 2017-09-05 05:10:18 --> Database Driver Class Initialized
+INFO - 2017-09-05 05:10:18 --> Session: Class initialized using 'database' driver.
+INFO - 2017-09-05 05:10:18 --> Controller Class Initialized
+INFO - 2017-09-05 05:10:18 --> Model Class Initialized
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_atas.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/1.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/2.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/3.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/4.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/5.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\form/murid/index.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\table/murid/index.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_nav.php
+INFO - 2017-09-05 05:10:19 --> File loaded: E:\Bitnami\XAMPP714\htdocs\pak_pras\application\views\_footer.php
+INFO - 2017-09-05 05:10:19 --> Final output sent to browser
+DEBUG - 2017-09-05 05:10:19 --> Total execution time: 0.8104

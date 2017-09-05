@@ -16,8 +16,8 @@
 </nav>
 <ul id="pendaftaran" class="dropdown-content">
 	<li><a href="pendaftaran/murid">Murid</a></li>
-	<li><a href="pendaftaran/guru">Guru</a></li>
-	<li><a href="pendaftaran/staf">Staf</a></li>
+	<li><a href="#pendaftaran/guru">Guru</a></li>
+	<li><a href="#pendaftaran/staf">Staf</a></li>
 </ul>
 <script>
 	$(document).ready(function() {

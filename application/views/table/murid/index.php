@@ -16,13 +16,13 @@
 			</div>
 			<div class="fixed-action-btn horizontal click-to-toggle">
 			<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
-				<?php if( $_SERVER['PATH_INFO'] == '/su/murid/calon/' ){ ?>
+				<?php if( substr($_SERVER['PATH_INFO'], 0, 10) == '/su/murid/' ){ ?>
 					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-						<i class="large material-icons">add</i>
+						<i class="large material-icons">mode_edit</i>
 					</a>
 				<?php }else{ ?>
 					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-						<i class="large material-icons">mode_edit</i>
+						<i class="large material-icons">add</i>
 					</a>
 				<?php } ?>
 			<?php } ?>

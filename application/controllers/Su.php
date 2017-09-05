@@ -15,11 +15,12 @@ class Su extends CI_Controller {
 	function murid($calon='',$type_or_id='', $id=''){
 		$this->load->view('_atas');
 		$this->load->view('su/_nav');
+		$status = $calon ? '0' : '1';
 		if ($type_or_id === 'edit') {
 			$this->load->view('form/murid/index',[
 				'data' => [
 					'display' => 'detail',
-					'murid' => $this->M_Murid->get($id)
+					'murid' => $this->M_Murid->get($id, $status)
 				]
 			]);
 		} else {
@@ -27,15 +28,15 @@ class Su extends CI_Controller {
 			if ($type_or_id === '') {
 				$data = [
 					'display' => 'list',
-					'murid' => $this->db->select('id,nama,skhu,asal,jk,created_at')->order_by('id','DESC')->get('f1')->result_array(),
+					'murid' => $this->db->select('id,nama,skhu,asal,jk,created_at')->where('status', $status)->order_by('id','DESC')->get('f1')->result_array(),
 					'period' => array_unique(array_map(function($val){
 									return substr($val['created_at'], 0, 4);
-								}, $this->M_Murid->get_period()))
+								}, $this->M_Murid->get_period($status)))
 				];
 			} else if ( ((int) $type_or_id) > 0 ) {
 				$data = [
 					'display' => 'detail',
-					'murid' => $this->M_Murid->get($type_or_id)
+					'murid' => $this->M_Murid->get($type_or_id, $status)
 				];
 			}
 			$this->load->view('table/murid/index', ['data'=>$data]);
