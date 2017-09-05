@@ -25,25 +25,25 @@ class Guru extends CI_Controller {
 		}
 	}
 	function update(){
-		$data = $_POST;
+		$guru['id'] = $_POST['id'];
+		$guru['nama'] = $_POST['nama'];
+		$guru['pel'] = $_POST['pel'];
+		$account['id'] = $_POST['id_account'];
+		$account['u'] = $_POST['u'];
+		$account['p'] = $_POST['p'];
+		$guru['bio'] = $_POST['bio'];
 		if ($_FILES['foto']['error'] < 1) {
 			if ( ! $this->upload->do_upload('foto')){
 				$error = array('error' => $this->upload->display_errors());
 				echo "<pre>";
-				print_r ($_FILES);
-				echo "</pre>";
-				echo "<pre>";
-				print_r ($_POST);
-				echo "</pre>";
-				echo "<pre>";
 				print_r ($error);
 				echo "</pre>";
 			}else{
-				$data['foto'] = $this->upload->data()['file_name'];
-				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$data['id'])->get('teachers')->result_array()[0]['foto']);
+				$guru['foto'] = $this->upload->data()['file_name'];
+				unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$guru['id'])->get('teachers')->result_array()[0]['foto']);
 			}
 		}
-		$this->M_Guru->update($data);
+		$this->M_Guru->update($guru,$account);
 	}
 	function delete(){
 		$this->M_Guru->delete($_POST['guru_id']);

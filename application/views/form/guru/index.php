@@ -4,7 +4,7 @@
 	}
 </style>
 <!-- FORM ADD || UPDATE -->
-<?=form_open_multipart('api/guru/add',['id'=>'fg'],['id'=>null])?>
+<?=form_open_multipart('api/guru/add',['id'=>'fg'],['id'=>null,'id_account'=>''])?>
 	<div id="add" class="modal">
 		<div class="modal-content">
 			<h4 id="h"></h4>
@@ -139,6 +139,8 @@
 		}
 	})
 	function add(){
+		$('[name="id"]').val('')
+		$('[name="id_account"]').val('')
 		$('#nama').val('')
 		$('#pel').val('')
 		$('#u').val('')
@@ -154,6 +156,7 @@
 	}
 	function edit(guru){
 		$('[name="id"]').val(guru.id)
+		$('[name="id_account"]').val(guru.id_account)
 		$('#nama').val(guru.nama)
 		$('#pel').val(guru.pel)
 		$('#u').val(guru.u)

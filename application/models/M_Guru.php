@@ -26,14 +26,15 @@ class M_Guru extends CI_Model {
 	function gets(){
 		return $this->db->get('teachers')->result_array();
 	}
-	function update($data){
-		$this->db->set($data)->where('id', $data['id'])->update('teachers');
+	function update($guru, $account){
+		$this->db->set($guru)->where('id', $guru['id'])->update('teachers');
+		$this->db->set($account)->where('id', $account['id'])->update('account');
 		redirect('guru/');
 	}
 	function delete($id){
 		unlink(BASEPATH.'..\\uploads\\guru\\'.$this->db->select('foto')->where('id',$id)->get('teachers')->result_array()[0]['foto']);
-		$this->db->where('id', $id)->delete('guru');
-		redirect('guru/');
+		$this->db->where('id', $id)->delete('teachers');
+		redirect('su/guru/');
 	}
 }
 
