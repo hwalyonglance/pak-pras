@@ -22,7 +22,7 @@ echo form_open(
 			<label for="judul">Judul</label>
 		</div>
 		<div class="input-field col s3 xl1 push-xl1">
-			<button class="btn" type="submit">Add</button>
+			<button class="btn" type="submit"><?=$data['action'] == 'edit' ? 'Update' : 'Add'?></button>
 		</div>
 	</div>
 	<div class="row">
@@ -35,7 +35,7 @@ echo form_open(
 	tinymce.init({
 		selector:'textarea[name="body"]',
 		width: '100%',
-		height: 500,
+		height: 550,
 		theme: 'modern',
 		plugins: [
 			'advlist autolink lists link image charmap print preview hr anchor pagebreak',

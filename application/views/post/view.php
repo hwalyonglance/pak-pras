@@ -1,7 +1,7 @@
-<main>
-	<div class="container" id="main" style="border: 1px solid blue">
+<main style="padding-top: 32px">
+	<div class="container" id="main">
 		<div class="row">
-			<div class="col s8" style="border: 1px solid green;">
+			<div class="col s12 l8 xl8 z-depth-4">
 				<div class="row">
 					<div class="col s12">
 						<header><h3><?=$data['post']['view']['title']?></h3></header>
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col s4" style="border: 1px solid red">
+			<div class="col s12 l4 xl4 z-depth-4">
 				<ul class="collection with-header">
 					<li class="collection-header"><h5>10 Terbaru</h5></li>
 					<?php
@@ -37,7 +37,7 @@
 					?>
 				</ul>
 			</div>
-			<div class="col s4" style="border: 1px solid red">
+			<div class="col s12 l4 xl4 z-depth-4">
 				<ul class="collection with-header">
 					<li class="collection-header"><h5>10 Paling Sering dikunjungi</h5></li>
 					<?php

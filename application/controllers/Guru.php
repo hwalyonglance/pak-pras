@@ -55,8 +55,7 @@ class Guru extends CI_Controller {
 					]
 				]);
 			break;
-		}
-		
+		}		
 	}
 }
 

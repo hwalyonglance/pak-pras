@@ -1,3 +1,9 @@
+<style>
+	td.v .btn{
+		width: 40px;
+		padding: 0 5px;
+	}
+</style>
 <div class="container">
 	<div class="row">
 		<div class="col s12">guru/post</div>
@@ -16,12 +22,16 @@
 						foreach ($data['posts'] as $key => $value) {
 							?>
 								<tr>
-									<td>
-										<a class="btn red" href="<?=base_url()?>guru/post/delete/<?=$value['id']?>"><i class="material-icons">delete_forever</i></a>
-										<a class="btn green" href="<?=base_url()?>guru/post/edit/<?=$value['id']?>"><i class="material-icons">mode_edit</i></a>
-										<a class="btn blue" href="<?=base_url()?>guru/post/edit/<?=$value['id']?>"><i class="fa fa-signin"></i></a>
+									<td class="v">
+										<a class="btn tooltipped blue" data-tooltip="View" href="<?=base_url()?>guru/post/view/<?=$value['id']?>"><i class="material-icons">info</i></a>
+										<a class="btn tooltipped green" data-tooltip="Edit" href="<?=base_url()?>guru/post/edit/<?=$value['id']?>"><i class="material-icons">mode_edit</i></a>
+										<a class="btn tooltipped red" data-tooltip="Delete" href="<?=base_url()?>guru/post/delete/<?=$value['id']?>"><i class="material-icons">delete_forever</i></a>
 									</td>
-									<td><?= '('.$value['view_count'].'x) '.$value['title']?></td>
+									<td>
+										<a href="<?=base_url()?>post/view/<?=$value['id'].'/'.$value['title']?>">
+											<?= '('.$value['view_count'].'x) '.$value['title']?>
+										</a>
+									</td>
 								</tr>
 							<?php
 						}
@@ -32,6 +42,9 @@
 	</div>
 </div>
 <script>
+	$(document).ready(function() {
+		$('.tooltipped').tooltip()
+	});
 	function edit(id, title){
 
 	}
