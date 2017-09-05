@@ -27,7 +27,10 @@ class Su extends CI_Controller {
 			if ($type_or_id === '') {
 				$data = [
 					'display' => 'list',
-					'murid' => $this->db->select('id,nama,asal,jk,created_at')->order_by('id','DESC')->get('f1')->result_array()
+					'murid' => $this->db->select('id,nama,skhu,asal,jk,created_at')->order_by('id','DESC')->get('f1')->result_array(),
+					'period' => array_unique(array_map(function($val){
+									return substr($val['created_at'], 0, 4);
+								}, $this->M_Murid->get_period()))
 				];
 			} else if ( ((int) $type_or_id) > 0 ) {
 				$data = [
@@ -37,6 +40,13 @@ class Su extends CI_Controller {
 			}
 			$this->load->view('table/murid/index', ['data'=>$data]);
 		}
+	}
+	function get_period(){
+		echo "<pre>";
+		print_r (array_unique(array_map(function($val){
+			return substr($val['created_at'], 0, 4);
+		}, $this->M_Murid->get_period())));
+		echo "</pre>";
 	}
 	function guru(){
 		$this->load->view('_atas');

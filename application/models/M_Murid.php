@@ -40,7 +40,9 @@ class M_Murid extends CI_Model {
 		$this->db->where('id', $id)->delete('f5');
 		redirect('murid/calon');
 	}
-
+	function get_period(){
+		return $this->db->select('created_at')->get('f1')->result_array();
+	}
 }
 
 /* End of file M_Pendaftaran.php */

@@ -1,42 +1,37 @@
 <?php
-	if (isset($_SERVER['HTTP_REFERER'])) {
-		if ( $this->session->userdata('is_role_0_logged_in') ) {
-			?>
-				<div id="edit" class="modal">
-					<div class="modal-content">
-						<?php if( in_array($_SERVER['PATH_INFO'], ['/su/murid']) ){ ?>
-							<h3>Tambah Calon Murid</h3>
-						<?php }else{ ?>
-							<h3>Edit Calon Murid</h3>
-						<?php } ?>
-						<?php $this->load->view('form/murid/index');?>
-					</div>
-					<div class="modal-footer">
-						<!-- <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
-					</div>
-				</div>
-				<div class="fixed-action-btn horizontal click-to-toggle">
-					<?php if( $this->session->userdata('is_role_0_logged_in') ){ ?>
-						<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-							<i class="large material-icons">add</i>
-						</a>
+	if ( $this->session->userdata('is_role_0_logged_in') ) {
+		?>
+			<div id="edit" class="modal">
+				<div class="modal-content">
+					<?php if( in_array($_SERVER['PATH_INFO'], ['/su/murid']) ){ ?>
+						<h3>Tambah Calon Murid</h3>
 					<?php }else{ ?>
-						<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
-							<i class="large material-icons">mode_edit</i>
-						</a>
+						<h3>Edit Calon Murid</h3>
 					<?php } ?>
-					<!-- <ul>
-						<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-					</ul> -->
+					<?php $this->load->view('form/murid/index');?>
 				</div>
-				<script>
-					$('.modal').modal();
-					function edit() {
-						$('#edit').modal('open');
-					}
-				</script>
-			<?php
-		}
+				<div class="modal-footer">
+					<!-- <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
+				</div>
+			</div>
+			<div class="fixed-action-btn horizontal click-to-toggle">
+				<?php if( $_SERVER['PATH_INFO'] == '/su/murid/calon/' ){ ?>
+					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
+						<i class="large material-icons">add</i>
+					</a>
+				<?php }else{ ?>
+					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
+						<i class="large material-icons">mode_edit</i>
+					</a>
+				<?php } ?>
+			</div>
+			<script>
+				$('.modal').modal();
+				function edit() {
+					$('#edit').modal('open');
+				}
+			</script>
+		<?php
 	}
 	if ($data['display'] === 'list') {
 ?>
@@ -50,10 +45,9 @@
 		<div class="row">
 			<div class="input-field col s2">
 				<select id="periode">
-					<option>2014/2015</option>
-					<option>2015/2016</option>
-					<option>2016/2017</option>
-					<option selected="">2017/2018</option>
+					<?php foreach ($data['period'] as $key => $value) { ?>
+						<option><?=$value.'/'.((int)$value + 1)?></option>
+					<?php } ?>
 				</select>
 				<label>Periode</label>
 			</div>
@@ -69,6 +63,7 @@
 			<th>#No</th>
 			<th>Nama</th>
 			<th>Asal Sekolah</th>
+			<th>SKHU</th>
 			<th>Jenis Kelamin</th>
 			<th>Tanggal Daftar</th>
 			<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
@@ -80,11 +75,12 @@
 				<td><?=$i?></td>
 				<td><?=$murid['nama']?></td>
 				<td><?=$murid['asal']?></td>
+				<td><?=$murid['skhu']?></td>
 				<td><?=$murid['jk']?></td>
 				<td><?=$murid['created_at']?></td>
 				<?php if ($this->session->userdata('is_role_0_logged_in')) { ?>
 					<td>
-						<a href="<?=base_url()?>murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
+						<a href="<?=base_url()?>su/murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
 						<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>
 						<a href="<?=base_url()?>su/murid_delete/<?=$murid['id']?>" class="btn tooltipped red" data-tooltip='Delete'><i class="material-icons">delete_forever</i></a>
 						<a href="<?=base_url()?>pdf/murid/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='PDF'><i class="material-icons">print</i></a>

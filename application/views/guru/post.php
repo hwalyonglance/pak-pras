@@ -19,8 +19,9 @@
 									<td>
 										<a class="btn red" href="<?=base_url()?>guru/post/delete/<?=$value['id']?>"><i class="material-icons">delete_forever</i></a>
 										<a class="btn green" href="<?=base_url()?>guru/post/edit/<?=$value['id']?>"><i class="material-icons">mode_edit</i></a>
+										<a class="btn blue" href="<?=base_url()?>guru/post/edit/<?=$value['id']?>"><i class="fa fa-signin"></i></a>
 									</td>
-									<td><?=$value['title']?></td>
+									<td><?= '('.$value['view_count'].'x) '.$value['title']?></td>
 								</tr>
 							<?php
 						}
