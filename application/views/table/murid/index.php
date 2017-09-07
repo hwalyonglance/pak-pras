@@ -15,7 +15,7 @@
 				</div>
 			</div>
 			<div class="fixed-action-btn horizontal click-to-toggle">
-			<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
+			<?php if ( substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' && $data['show'] ) { ?>
 				<?php if( substr($_SERVER['PATH_INFO'], 0, 10) == '/su/murid/' ){ ?>
 					<a class="btn-floating btn-large pulse pink accent-2" onclick="edit()">
 						<i class="large material-icons">mode_edit</i>
@@ -80,14 +80,15 @@
 				<td><?=$murid['nama']?></td>
 				<td><?=$murid['asal']?></td>
 				<td><?=$murid['skhu']?></td>
-				<td><?=$murid['jk']?></td>
+				<!-- <td><?=$murid['jk']?></td> -->
+				<td></td>
 				<td><?=$murid['created_at']?></td>
 				<?php if ( $this->session->userdata('is_role_0_logged_in') && substr($_SERVER['PATH_INFO'], 0, 19) !== '/daftar/calon_murid' ) { ?>
 					<td>
 						<a href="<?=base_url()?>su/murid/calon/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='Detail'><i class="material-icons">info</i></a>
 						<a href="<?=base_url()?>su/murid/calon/edit/<?=$murid['id']?>" class="btn tooltipped green" data-tooltip='Edit'><i class="material-icons">mode_edit</i></a>
 						<a href="<?=base_url()?>su/murid_delete/<?=$murid['id']?>" class="btn tooltipped red" data-tooltip='Delete'><i class="material-icons">delete_forever</i></a>
-						<a href="<?=base_url()?>pdf/murid/<?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='PDF'><i class="material-icons">print</i></a>
+						<a href="<?=base_url()?>pdf/murid/<?=$_SERVER['PATH_INFO'] == '/su/murid/calon/' ? 'calon/' : '' ?><?=$murid['id']?>" class="btn tooltipped blue" data-tooltip='PDF'><i class="material-icons">print</i></a>
 					</td>
 				<?php } ?>
 			</tr>

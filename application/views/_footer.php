@@ -1,14 +1,17 @@
-<div style="flex: 1 1 auto"></div>
+<div style="flex: 1 1 auto;padding-top: 20px"></div>
 <footer class="page-footer deep-purple darken-2">
 	<div class="container">
 		<div class="row">
-			<div class="col l6 s12">
-				<h5 class="white-text">Footer Content</h5>
+			<div class="col l7 s12">
+				<h5 class="white-text">SMK Bakti Nusantara 666</h5>
 				<p class="grey-text text-lighten-4">
-					You can use rows and columns here to organize your footer content.
+					<span class="chip">SaJuTa</span>
+					<span class="chip">SMK Bisa</span>
+					<span class="chip">XII RPL 4</span>
+					<span class="chip">Supriatna S.pd</span>
 				</p>
 			</div>
-			<div class="col l4 offset-l2 s12">
+			<div class="col l4 offset-l1 s12">
 				<h5 class="white-text">Developed By</h5>
 				<ul>
 					<li><a class="grey-text text-lighten-3" href="#!">Andy Marcelino</a></li>

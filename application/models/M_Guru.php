@@ -21,7 +21,6 @@ class M_Guru extends CI_Model {
 			'foto' => $data['foto'],
 			'bio' => $data['bio']
 		]);
-		redirect('guru/');
 	}
 	function gets(){
 		return $this->db->get('teachers')->result_array();

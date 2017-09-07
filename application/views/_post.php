@@ -6,9 +6,6 @@
 </style>
 <div class="container">
 	<div class="row">
-		<div class="col s12">views/guru/post</div>
-	</div>
-	<div class="row">
 		<div class="col 12">
 			<table>
 				<thead>
@@ -54,6 +51,15 @@
 		</div>
 	</div>
 </form>
+<!-- FLOATING BUTTON -->
+<div class="fixed-action-btn horizontal click-to-toggle" onclick="add()">
+	<a class="btn-floating btn-large pulse pink accent-2">
+		<i class="large material-icons">add</i>
+	</a>
+	<!-- <ul>
+		<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+	</ul> -->
+</div>
 <script>
 	$(document).ready(function() {
 		$('.modal').modal();
@@ -61,6 +67,9 @@
 			html: true
 		})
 	});
+	function add(){
+		location = '<?=base_url().$data['action']?>/post/add'
+	}
 	function edit(id, title){
 
 	}

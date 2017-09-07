@@ -23,6 +23,7 @@ class Guru extends CI_Controller {
 			$_POST['p'] = password_hash($_POST['p'], PASSWORD_DEFAULT);
 			$this->M_Guru->add($_POST);
 		}
+		redirect('su/guru/');
 	}
 	function update(){
 		$guru['id'] = $_POST['id'];

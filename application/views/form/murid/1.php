@@ -38,7 +38,7 @@
 				<input id="tanggal_l" type="text" name="1[tanggal_l]" class="datepicker" value="<?=isset($data) && $data['display'] === 'detail' ? ($data['murid'][1]['tanggal_l']??'') : ''?>">
 			</div>
 			<div class="input-field col s12">
-				<input id="nik" type="text" name='1[nik]' class="validate" value="<?=isset($data) && $data['display'] === 'detail' ? ($data['murid'][1]['nik']??'') : ''?>">
+				<input id="nik" type="number" name='1[nik]' class="validate" value="<?=isset($data) && $data['display'] === 'detail' ? ($data['murid'][1]['nik']??'') : ''?>" >
 				<label for="nik">NIK</label>
 			</div>
 		</div>

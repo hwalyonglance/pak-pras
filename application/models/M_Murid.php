@@ -8,9 +8,9 @@ class M_Murid extends CI_Model {
 		$this->db->insert('f3', $data[3]);
 		$this->db->insert('f4', $data[4]);
 		$this->db->insert('f5', $data[5]);
-		redirect('murid/calon/'.$id);
+		redirect('daftar/calon_murid');
 	}
-	function get($id, $status){
+	function get($id, $status='0'){
 		return [
 			1 => $this->db->where([ 'id' => $id, 'status' => $status ])->get('f1')->result_array()[0],
 			2 => $this->db->where([ 'id' => $id ])->get('f2')->result_array()[0],

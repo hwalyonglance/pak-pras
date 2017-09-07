@@ -21,7 +21,8 @@ class Su extends CI_Controller {
 			$this->load->view('form/murid/index',[
 				'data' => [
 					'display' => 'detail',
-					'murid' => $this->M_Murid->get($id, $status)
+					'murid' => $this->M_Murid->get($id, $status),
+					'show' => true
 				]
 			]);
 		} else {
@@ -30,6 +31,7 @@ class Su extends CI_Controller {
 				$data = [
 					'display' => 'list',
 					'murid' => $this->db->select('id,nama,skhu,asal,jk,created_at')->where('status', $status)->order_by('id','DESC')->get('f1')->result_array(),
+					'show' => true,
 					'period' => array_unique(array_map(function($val){
 									return substr($val['created_at'], 0, 4);
 								}, $this->M_Murid->get_period($status)))
@@ -37,7 +39,8 @@ class Su extends CI_Controller {
 			} else if ( ((int) $type_or_id) > 0 ) {
 				$data = [
 					'display' => 'detail',
-					'murid' => $this->M_Murid->get($type_or_id, $status)
+					'murid' => $this->M_Murid->get($type_or_id, $status),
+					'show' => true
 				];
 			}
 			$this->load->view('table/murid/index', ['data'=>$data]);
@@ -82,9 +85,10 @@ class Su extends CI_Controller {
 				]);
 			break;
 			default:
-				$this->load->view('guru/post',[
+				$this->load->view('_post',[
 					'data' => [
-						'posts' => $this->M_Post->gets($this->session->userdata('role_0_id'))
+						'posts' => $this->M_Post->gets($this->session->userdata('role_0_id')),
+						'action' => 'su'
 					]
 				]);
 			break;

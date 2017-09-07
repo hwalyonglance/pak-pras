@@ -1,0 +1,35 @@
+[debug] [2017-09-05T22:13:25.973Z] ----------------------------------------------------------------------
+[debug] [2017-09-05T22:13:25.983Z] Command:       E:\nodejs\7.9.0\node.exe C:\Users\RUSMAN WAHAB\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-05T22:13:25.984Z] CLI Version:   3.10.0
+[debug] [2017-09-05T22:13:25.984Z] Platform:      win32
+[debug] [2017-09-05T22:13:25.984Z] Node Version:  v7.9.0
+[debug] [2017-09-05T22:13:25.985Z] Time:          Wed Sep 06 2017 05:13:25 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-05T22:13:25.985Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-05T22:13:26.022Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-05T22:13:26.023Z] > authorizing via signed-in user
+[debug] [2017-09-05T22:13:26.031Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pak-pras  
+ Wed Sep 06 2017 05:13:26 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-05T22:13:31.482Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-05T22:13:31.486Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pak-pras/tokens  
+ Wed Sep 06 2017 05:13:31 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-05T22:13:34.630Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Bitnami\XAMPP714\htdocs\pak_pras'...
+[info] 
+[debug] [2017-09-05T22:13:34.637Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pak-pras  
+ Wed Sep 06 2017 05:13:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-05T22:13:41.787Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-05T22:13:41.788Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1038390764316/clients/_:getWebAppConfig  
+ Wed Sep 06 2017 05:13:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-05T22:13:43.274Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-05T22:13:47.083Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\RUSMAN WAHAB\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1290:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[error] 
+[error] Error: An unexpected error has occurred.

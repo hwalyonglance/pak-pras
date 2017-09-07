@@ -23,7 +23,7 @@
 				$teacher = '{id:'.$data['teachers'][$i]['id'].', nama:"'.$data['teachers'][$i]['nama'].'", pel:"'.$data['teachers'][$i]['pel'].'"}';
 		?>
 			<div class="col s6 m6 l4 xl3">
-				<div class="card">
+				<div class="card z-depth-4">
 					<div class="card-image">
 						<img src="<?=base_url()?>uploads/guru/<?=$data['teachers'][$i]['foto']?>" style='max-height: 200px'>
 						<?php if( $this->session->userdata('is_role_0_logged_in') && substr($_SERVER['PATH_INFO'], 0, 12) !== '/daftar/guru' ) {?>

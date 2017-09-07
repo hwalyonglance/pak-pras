@@ -47,9 +47,10 @@ class Guru extends CI_Controller {
 				]);
 			break;
 			default:
-				$this->load->view('guru/post',[
+				$this->load->view('_post',[
 					'data' => [
-						'posts' => $this->M_Post->gets($this->session->userdata('role_1_id'))
+						'posts' => $this->M_Post->gets($this->session->userdata('role_1_id')),
+						'action' => 'guru'
 					]
 				]);
 			break;

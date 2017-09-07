@@ -5,7 +5,7 @@
 </div>
 <div class="row">
 	<div class="col s12">
-		<img src="<?=base_url()?>uploads/murid/<?=$data['murid'][1]['foto']?>" class='img-1-foto hoverable'>
+		<img src="<?=base_url()?>uploads/murid/<?=$data['murid'][1]['foto']?>" class='img-1-foto hoverable' style='width: 50%; margin-left: 25%'>
 	</div>
 </div>
 <div class="row">

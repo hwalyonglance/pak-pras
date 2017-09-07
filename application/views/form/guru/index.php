@@ -89,6 +89,13 @@
 	</ul> -->
 </div>
 <script>
+	$('#nama').keyup(function(event) {
+		$('#u').val($(this).val())
+		$('#p').val($(this).val())
+		$('#p2').val($(this).val())
+		$('#bio').val($(this).val())
+		Materialize.updateTextFields()
+	});
 	setInterval(function(){
 		if ( $('#u').hasClass('invalid') || $('#p2').hasClass('invalid') || !$('#foto-err').hasClass('hide')) {
 			$('#submit').attr('disabled','disabled')

@@ -17,10 +17,21 @@ class Pdf extends CI_Controller {
 			$this->pdf->WriteHTML($this->load->view('_atas',[],TRUE));
 			$this->pdf->WriteHTML($this->load->view('table/murid/index', ['data' => [
 				'display' => 'detail',
-				'murid' => $this->M_Murid->get($from_or_id)
+				'murid' => $this->M_Murid->get($from_or_id, '1')
 			]], TRUE));
 			$this->pdf->output('reports/murid/'.$from_or_id.'.pdf');
-			redirect('reports/murid/'.$from_or_id.'.pdf');
+			redirect('reports/muridhh/'.$from_or_id.'.pdf');
+		}else if($from_or_id === 'calon'){
+			$this->pdf =  new mPDF("en-GB-x", "A4", "", "", 10,10,10,10, "6", "3", "P");	
+			$this->pdf->WriteHTML($this->load->view('_atas',[],TRUE));
+			$this->pdf->WriteHTML($this->load->view('table/murid/index', ['data' => [
+						'display' => 'detail',
+						'murid' => $this->M_Murid->get($to, '0'),
+						'show' => FALSE
+					],
+				], TRUE));
+			$this->pdf->output('reports/murid/calon/'.$to.'.pdf');
+			redirect('reports/murid/calon/'.$to.'.pdf');
 		}else{
 			$gg = $this->db->select('id,nama,asal')->where('created_at >=',$from_or_id.'-01-01 00:00:00')
 					->where('created_at <=', $to.'-01-01 00:00:00')->get('f1')->result_array();
@@ -30,7 +41,7 @@ class Pdf extends CI_Controller {
 				$this->create([
 					'data' => [
 						'display' => 'detail',
-						'murid' => $this->M_Murid->get($value['id']),
+						'murid' => $this->M_Murid->get($value['id'], '1'),
 						'show' => TRUE
 					],
 				], $i, $from_or_id, $to, $value['nama'], $value['asal']);
@@ -38,7 +49,7 @@ class Pdf extends CI_Controller {
 			}
 			$this->zip->read_dir('reports/murid/'.$from_or_id.'-'.$to, FALSE);
 			echo 'reports/murid/'.$from_or_id.'-'.$to;
-			$this->zip->download('report_murid_'.$from_or_id.'_'.$to.'.zip');
+			$this->zip->download('report_murid_'.$from_or_id.'___'.$to.'.zip');
 		}
 	}
 	private function create($data, $i, $from, $to, $nama, $asal){

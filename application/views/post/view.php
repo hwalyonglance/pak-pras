@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col s12">
 						<span class="small">
-							oleh <b><?=$data['post']['view']['nama']?></b>,
+							<!-- oleh <b><?=$data['post']['view']['nama']?></b>, -->
 							pada <?=$data['post']['view']['created_at']?>
 						</span>
 					</div>
@@ -22,36 +22,10 @@
 				</div>
 			</div>
 			<div class="col s12 l4 xl4 z-depth-4">
-				<ul class="collection with-header">
-					<li class="collection-header"><h5>10 Terbaru</h5></li>
-					<?php
-						foreach ($data['post']['newest'] as $key => $value) {
-							?>
-							<li class="collection-item truncate">
-								<a href="<?=base_url().'post/view/'.$value['id'].'/'.$value['title']?>">
-									(<?=$value['view_count']?>x) <?=$value['title']?>
-								</a>
-							</li>
-							<?php
-						}
-					?>
-				</ul>
+				<?php $this->load->view('post/_newest') ?>
 			</div>
 			<div class="col s12 l4 xl4 z-depth-4">
-				<ul class="collection with-header">
-					<li class="collection-header"><h5>10 Paling Sering dikunjungi</h5></li>
-					<?php
-						foreach ($data['post']['popular'] as $key => $value) {
-							?>
-							<li class="collection-item truncate">
-								<a href="<?=base_url().'post/view/'.$value['id'].'/'.$value['title']?>">
-									(<?=$value['view_count']?>x) <?=$value['title']?>
-								</a>
-							</li>
-							<?php
-						}
-					?>
-				</ul>
+				<?php $this->load->view('post/_most_popular') ?>
 			</div>
 		</div>
 	</div>
